@@ -1,0 +1,16 @@
+/Direct3D Win32 Game1/Particle.cpp
+1=/Direct3D Win32 Game1/pch.h
+2=/Direct3D Win32 Game1/StepTimer.h
+3=/Direct3D Win32 Game1/Particle.h
+/Direct3D Win32 Game1/Game.cpp
+1
+4=/Direct3D Win32 Game1/Game.h
+2
+3
+/Direct3D Win32 Game1/pch.cpp
+1
+/Direct3D Win32 Game1/Main.cpp
+1
+4
+2
+3

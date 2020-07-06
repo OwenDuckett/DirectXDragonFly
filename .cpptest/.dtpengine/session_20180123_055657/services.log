@@ -1,0 +1,3266 @@
+Diagnostics file initialized on Tue Jan 23 05:56:58 GMT 2018
+================================================================================================
+AVAILABLE BUNDLES AND SERVICES (87)
+================================================================================================
+Bundle [0]: org.apache.felix.framework, state: [8], version: 4.2.0
+Bundle [1]: org.apache.felix.scr, state: [32], version: 1.6.2
+Bundle [2]: com.parasoft.xtest.services.api, state: [32], version: 10.3.2.20170502
+Bundle [3]: com.parasoft.xtest.analyzers.api, state: [2], version: 10.3.2.20170502
+Bundle [4]: com.parasoft.xtest.common.api, state: [2], version: 10.3.2.20170502
+Bundle [5]: com.parasoft.xtest.configuration.api, state: [2], version: 10.3.2.20170502
+Bundle [6]: com.parasoft.xtest.coverage.api, state: [2], version: 10.3.2.20170502
+Bundle [7]: com.parasoft.xtest.cpp.api, state: [2], version: 10.3.2.N20170524B1310
+Bundle [8]: com.parasoft.xtest.dupcode.api, state: [2], version: 10.3.2.20170502
+Bundle [9]: com.parasoft.xtest.logging.api, state: [4], version: 10.3.2.20170502
+Bundle [10]: com.parasoft.xtest.results.api, state: [2], version: 10.3.2.20170502
+Bundle [11]: com.parasoft.xtest.scope.api, state: [2], version: 10.3.2.20170502
+Bundle [12]: com.parasoft.xtest.testcases.api, state: [2], version: 10.3.2.20170502
+Bundle [13]: groovy-all, state: [2], version: 2.4.7
+Bundle [14]: com.parasoft.xtest.cpp.analyzer.code, state: [2], version: 10.3.2.N20170524B1310
+Bundle [15]: com.parasoft.xtest.cpp.analyzer.googletest, state: [2], version: 10.3.2.N20170524B1310
+Bundle [16]: com.parasoft.xtest.cpp.analyzer.metrics, state: [2], version: 10.3.2.N20170524B1310
+Bundle [17]: com.parasoft.xtest.cpp.analyzer.scripting, state: [2], version: 10.3.2.N20170524B1310
+Bundle [18]: com.parasoft.xtest.cpp.analyzer.static.global, state: [2], version: 10.3.2.N20170524B1310
+Bundle [19]: com.parasoft.xtest.cpp.coverageanalyzer, state: [2], version: 10.3.2.N20170524B1310
+Bundle [20]: com.parasoft.xtest.cpp.dupcode, state: [2], version: 10.3.2.N20170524B1310
+Bundle [21]: com.parasoft.xtest.cpp.filter.duplicateviolationsremover, state: [2], version: 10.3.2.N20170524B1310
+Bundle [22]: com.parasoft.xtest.cpp.filter.filename, state: [2], version: 10.3.2.N20170524B1310
+Bundle [23]: com.parasoft.xtest.cpp.filter.localsuppressions, state: [2], version: 10.3.2.N20170524B1310
+Bundle [24]: com.parasoft.xtest.cpp.filter.ownerassigner, state: [2], version: 10.3.2.N20170524B1310
+Bundle [25]: com.parasoft.xtest.cpp.filter.violationslimiter, state: [2], version: 10.3.2.N20170524B1310
+Bundle [26]: com.parasoft.xtest.cpp.flowexecutor, state: [2], version: 10.3.2.N20170524B1310
+Bundle [27]: com.parasoft.xtest.cpp.integration.desktop, state: [2], version: 10.3.2.N20170524B1310
+Bundle [28]: com.parasoft.xtest.cpp.integration.unittesting, state: [2], version: 10.3.2.N20170524B1310
+Bundle [29]: com.parasoft.xtest.cpp.reporter.csv, state: [2], version: 10.3.2.N20170524B1310
+Bundle [30]: com.parasoft.xtest.cpp.reporter.desktop, state: [2], version: 10.3.2.N20170524B1310
+Bundle [31]: com.parasoft.xtest.cpp.reporter.txt, state: [2], version: 10.3.2.N20170524B1310
+Bundle [32]: com.parasoft.xtest.cpp.reporter.xml, state: [2], version: 10.3.2.N20170524B1310
+Bundle [33]: com.parasoft.xtest.cpp.scope.bdf, state: [2], version: 10.3.2.N20170524B1310
+Bundle [34]: com.parasoft.xtest.cpp.scope.coverage, state: [2], version: 10.3.2.N20170524B1310
+Bundle [35]: com.parasoft.xtest.cpp.scope.direct, state: [2], version: 10.3.2.N20170524B1310
+Bundle [36]: com.parasoft.xtest.cpp.scope.googletest, state: [2], version: 10.3.2.N20170524B1310
+Bundle [37]: com.parasoft.xtest.cpp.scope.lst, state: [2], version: 10.3.2.N20170524B1310
+Bundle [38]: com.parasoft.xtest.cpp.scope.sln, state: [2], version: 10.3.2.N20170524B1310
+Bundle [39]: com.parasoft.xtest.cpp.scope.trace, state: [2], version: 10.3.2.N20170524B1310
+Bundle [40]: com.parasoft.xtest.cpp.scope.txt, state: [2], version: 10.3.2.N20170524B1310
+Bundle [41]: com.parasoft.xtest.cpp.scope.vcproj, state: [2], version: 10.3.2.N20170524B1310
+Bundle [42]: com.parasoft.xtest.cpp.scope.vcxproj, state: [2], version: 10.3.2.N20170524B1310
+Bundle [43]: com.parasoft.xtest.cpp.scopeanalyzer, state: [2], version: 10.3.2.N20170524B1310
+Bundle [44]: com.parasoft.xtest.cpp.staticanalyzer, state: [2], version: 10.3.2.N20170524B1310
+Bundle [45]: com.parasoft.xtest.cpp.techsupport, state: [2], version: 10.3.2.N20170524B1310
+Bundle [46]: com.parasoft.xtest.cpp.util, state: [2], version: 10.3.2.N20170524B1310
+Bundle [47]: com.parasoft.xtest.cpp.flowanalyzer, state: [2], version: 10.3.2.20170428B782
+Bundle [48]: com.parasoft.xtest.flowanalysis, state: [2], version: 10.3.2.20170428B782
+Bundle [49]: com.parasoft.xtest.flowanalysis.api, state: [2], version: 10.3.2.20170428B782
+Bundle [50]: com.parasoft.xtest.flowanalysis.common, state: [2], version: 10.3.2.20170428B782
+Bundle [51]: com.parasoft.xtest.language.api, state: [2], version: 10.3.2.20170428B782
+Bundle [52]: com.parasoft.javax.activation, state: [2], version: 1.1.1
+Bundle [53]: com.parasoft.javax.xml.stream, state: [2], version: 1.0.1
+Bundle [54]: com.parasoft.xtest.authorship, state: [2], version: 10.3.2.20170502
+Bundle [55]: com.parasoft.xtest.chart.api, state: [2], version: 10.3.2.20170502
+Bundle [56]: com.parasoft.xtest.common.ui, state: [2], version: 10.3.2.20170502
+Bundle [57]: com.parasoft.xtest.common, state: [2], version: 10.3.2.20170502
+Bundle [58]: com.parasoft.xtest.communicator, state: [2], version: 10.3.2.20170502
+Bundle [59]: com.parasoft.xtest.configuration, state: [2], version: 10.3.2.20170502
+Bundle [60]: com.parasoft.xtest.coverage, state: [2], version: 10.3.2.20170502
+Bundle [61]: com.parasoft.xtest.dupcode, state: [2], version: 10.3.2.20170502
+Bundle [62]: com.parasoft.xtest.lic.client, state: [2], version: 10.3.2.20170502
+Bundle [63]: com.parasoft.xtest.preference.api, state: [2], version: 10.3.2.20170502
+Bundle [64]: com.parasoft.xtest.reports.api, state: [2], version: 10.3.2.20170502
+Bundle [65]: com.parasoft.xtest.reports.fonts, state: [2], version: 10.3.2.20170502
+Bundle [66]: com.parasoft.xtest.reports, state: [2], version: 10.3.2.20170502
+Bundle [67]: com.parasoft.xtest.repository, state: [2], version: 10.3.2.20170502
+Bundle [68]: com.parasoft.xtest.resource.api, state: [2], version: 10.3.2.20170502
+Bundle [69]: com.parasoft.xtest.results, state: [2], version: 10.3.2.20170502
+Bundle [70]: com.parasoft.xtest.scontrol.api, state: [2], version: 10.3.2.20170502
+Bundle [71]: com.parasoft.xtest.scontrol.tfs, state: [2], version: 10.3.2.20170502
+Bundle [72]: com.parasoft.xtest.scontrol, state: [2], version: 10.3.2.20170502
+Bundle [73]: com.parasoft.xtest.scope, state: [2], version: 10.3.2.20170502
+Bundle [74]: com.parasoft.xtest.share.api, state: [2], version: 10.3.2.20170502
+Bundle [75]: com.parasoft.xtest.share, state: [2], version: 10.3.2.20170502
+Bundle [76]: com.parasoft.xtest.suppressions, state: [2], version: 10.3.2.20170502
+Bundle [77]: com.parasoft.xtest.techsupport, state: [2], version: 10.3.2.20170502
+Bundle [78]: com.parasoft.xtest.testassist.api, state: [2], version: 10.3.2.20170502
+Bundle [79]: javanet.staxutils, state: [2], version: 1.0.0
+Bundle [80]: javax.mail, state: [2], version: 1.5.0
+Bundle [81]: org.apache.commons.io, state: [2], version: 1.4.0.v20081110-1000
+Bundle [82]: org.apache.commons.logging, state: [2], version: 1.1.3
+Bundle [83]: org.apache.jcs, state: [2], version: 1.3.4
+Bundle [84]: org.codehaus.stax2, state: [2], version: 3.2.4
+Bundle [85]: org.json, state: [2], version: 1.0.0.v201507290100
+Bundle [86]: org.suigeneris.jrcs.diff, state: [2], version: 0.4.2
+
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.dtp.DtpAutoconfPreferencesService@10d210d
+CONTEXT: com.parasoft.xtest.common.services.RawConsoleServiceContext@176aeea
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    configuration.dir.builtin=C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.3\plugins\com.parasoft.xtest.checkers.vstudio.core.cpp\configs
+    configuration.dir.user=C:\Users\546257\AppData\Local\Xtest\.plugins.vs\com.parasoft.xtest.checkers.api\configs\c++test
+    configuration.share.path=c++test/configs
+    console.verbosity.level=normal
+    cpptest.analyzer.coverage.enabled=true
+    cpptest.analyzer.desktop.files.in.scope.file=C:\Direct3D 1\.cpptest\.dtpengine\session_20180123_055657\tested_files.txt
+    cpptest.analyzer.desktop.modules.file=C:\Direct3D 1\.cpptest\.dtpengine\session_20180123_055657\modules.properties
+    cpptest.analyzer.desktop.ut.enabled=false
+    cpptest.analyzer.dupcode.enabled=true
+    cpptest.analyzer.flow.enabled=true
+    cpptest.analyzer.global.enabled=true
+    cpptest.analyzer.googletest.enabled=true
+    cpptest.analyzer.metrics.enabled=true
+    cpptest.analyzer.scope.enabled=false
+    cpptest.analyzer.source.enabled=true
+    cpptest.analyzer.static.enabled=true
+    cpptest.analyzer.unittesting.enabled=true
+    cpptest.analyzer.verbose=false
+    cpptest.compiler.dir.builtin=C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.3\engine\etc\compilers
+    cpptest.compiler.dir.user=C:\Users\546257\AppData\Local\Xtest\.plugins.vs\com.parasoft.xtest.checkers.vstudio.core.cpp\compilers
+    cpptest.config.properties.file=${cpptest:root_dir}/cpptestcli.properties;${cpptest:user_home}/cpptestcli.properties;cpptestcli.properties
+    cpptest.config.psrc.file=${cpptest:root_dir}/etc/default.psrc;
+    cpptest.configuration=builtin://Recommended Rules
+    cpptest.input.bdf.cache.enabled=true
+    cpptest.input.bdf.file=${cpptest:workspace_dir}/cpptest.bdf
+    cpptest.input.bdf.legacy.project.enabled=false
+    cpptest.input.msvc.add.compiler.options=-I.
+    cpptest.license.local.password=IDE*4436686e6c56736f684e2d27333143753a6171406df25a4d4d6b6f7a654d556179f655656e6c404d2c25352afff969
+    cpptest.license.use_network=false
+    cpptest.output.error.max.lines=10
+    cpptest.report.csv.enabled=false
+    cpptest.report.desktop.enabled=false
+    cpptest.report.desktop.setup.results.file=C:\Direct3D 1\.cpptest\.dtpengine\session_20180123_055657\setup_problem_files.txt
+    cpptest.report.text.enabled=true
+    cpptest.report.text.print.summary=auto
+    cpptest.report.xml.enabled=false
+    cpptest.result.assign.owner.enabled=true
+    cpptest.result.limit.violations.enabled=false
+    cpptest.result.remove.duplicates.enabled=true
+    cpptest.rule.dir.builtin=${cpptest:root_dir}/rules/builtin/${cpptest:locale:en|ja|zh_CN}
+    cpptest.rule.dir.team=${property:local.storage.dir}/rules/team
+    cpptest.rule.dir.user=${cpptest:root_dir}/rules/user
+    cpptest.scope.filter.name.enabled=true
+    cpptest.scope.filter.name.include=.*\.(${property:cpptest.testable.source.file.ext})|.*\.(${property:cpptest.testable.header.file.ext})
+    cpptest.scope.resource=C:\Direct3D 1\.cpptest\.dtpengine\session_20180123_055657\resources.lst
+    cpptest.scope.uptodate.check.enabled=true
+    cpptest.scripting.dir.builtin=${cpptest:root_dir}/scripts/builtin
+    cpptest.scripting.dir.user=${cpptest:root_dir}/scripts/user
+    cpptest.testable.header.file.ext=h|hpp|hxx|hh
+    cpptest.testable.source.file.ext=c|cpp|cxx|cc
+    local.storage.dir=./.cpptest
+    parallel.mode=Auto
+    report.active_rules=true
+    report.associations=true
+    report.authors_details=false
+    report.contexts_details=true
+    report.developer_errors=true
+    report.developer_reports=false
+    report.format=xml
+    report.location=C:\Direct3D 1\.cpptest\.dtpengine\session_20180123_055657\reports
+    report.setup.problems=bottom
+    report.test_params=true
+    rules.provider_StaticAnalyzerTeamRuleProvider.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_StaticAnalyzerTeamRuleProvider.data=C:\Users\546257\AppData\Local\Xtest\.plugins.vs\com.parasoft.xtest.staticanalyzer.vstudio.core.cpp\trules\rules.xml
+    rules.provider_StaticAnalyzerTeamRuleProvider.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_StaticAnalyzerTeamRuleProvider.dir=C:\Users\546257\AppData\Local\Xtest\.plugins.vs\com.parasoft.xtest.staticanalyzer.vstudio.core.cpp\trules
+    rules.provider_StaticAnalyzerTeamRuleProvider.id=StaticAnalyzerTeamRuleProvider
+    rules.provider_StaticAnalyzerTeamRuleProvider.mapping=C:\Users\546257\AppData\Local\Xtest\.plugins.vs\com.parasoft.xtest.staticanalyzer.vstudio.core.cpp\trules\rulemap.xml
+    rules.provider_StaticAnalyzerTeamRuleProvider.separator=-
+    rules.provider_StaticAnalyzerTeamRuleProvider.type=codingstandards
+    rules.provider_StaticAnalyzerUserRuleProvider.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_StaticAnalyzerUserRuleProvider.data=C:\Users\546257\AppData\Local\Xtest\.plugins.vs\com.parasoft.xtest.staticanalyzer.vstudio.core.cpp\urules\rules.xml
+    rules.provider_StaticAnalyzerUserRuleProvider.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_StaticAnalyzerUserRuleProvider.dir=C:\Users\546257\AppData\Local\Xtest\.plugins.vs\com.parasoft.xtest.staticanalyzer.vstudio.core.cpp\urules
+    rules.provider_StaticAnalyzerUserRuleProvider.id=StaticAnalyzerUserRuleProvider
+    rules.provider_StaticAnalyzerUserRuleProvider.mapping=C:\Users\546257\AppData\Local\Xtest\.plugins.vs\com.parasoft.xtest.staticanalyzer.vstudio.core.cpp\urules\rulemap.xml
+    rules.provider_StaticAnalyzerUserRuleProvider.separator=-
+    rules.provider_StaticAnalyzerUserRuleProvider.type=codingstandards
+    rules.provider_cpptest_cdd.analyzer=com.parasoft.xtest.cpp.analyzer.static.dupcode
+    rules.provider_cpptest_cdd.data=${cpptest:root_dir}/rules/builtin_cdd/rules.xml
+    rules.provider_cpptest_cdd.id=cpptest_cdd
+    rules.provider_cpptest_cdd.separator=-
+    rules.provider_cpptest_cdd.type=codeduplication
+    rules.provider_cpptest_cs_builtin.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_cs_builtin.categories=${property:cpptest.rule.dir.builtin}/categories.properties
+    rules.provider_cpptest_cs_builtin.data=${property:local.storage.dir}/rules/builtin/rules.xml
+    rules.provider_cpptest_cs_builtin.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_cpptest_cs_builtin.dir=${property:cpptest.rule.dir.builtin}
+    rules.provider_cpptest_cs_builtin.id=cpptest_cs_builtin
+    rules.provider_cpptest_cs_builtin.mapping=${property:cpptest.rule.dir.builtin}/rulemap.xml
+    rules.provider_cpptest_cs_builtin.separator=-
+    rules.provider_cpptest_cs_builtin.type=codingstandards
+    rules.provider_cpptest_cs_dtp.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_cs_dtp.categories=${property:local.storage.dir}/rules/dtp/categories.properties
+    rules.provider_cpptest_cs_dtp.data=${property:local.storage.dir}/rules/dtp/rules.xml
+    rules.provider_cpptest_cs_dtp.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_cpptest_cs_dtp.dir=${property:local.storage.dir}/rules/dtp
+    rules.provider_cpptest_cs_dtp.id=cpptest_cs_dtp
+    rules.provider_cpptest_cs_dtp.mapping=${property:local.storage.dir}/rules/dtp/rulemap.xml
+    rules.provider_cpptest_cs_dtp.separator=-
+    rules.provider_cpptest_cs_dtp.share.url=true
+    rules.provider_cpptest_cs_dtp.type=codingstandards
+    rules.provider_cpptest_cs_global.analyzer=com.parasoft.xtest.cpp.analyzer.static.global
+    rules.provider_cpptest_cs_global.data=${cpptest:root_dir}/rules/builtin_global/rules.xml
+    rules.provider_cpptest_cs_global.id=cpptest_cs_global
+    rules.provider_cpptest_cs_global.separator=-
+    rules.provider_cpptest_cs_global.type=codingstandards
+    rules.provider_cpptest_cs_team.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_cs_team.categories=${property:local.storage.dir}/rules/team/categories.properties
+    rules.provider_cpptest_cs_team.data=${property:local.storage.dir}/rules/team/rules.xml
+    rules.provider_cpptest_cs_team.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_cpptest_cs_team.dir=${property:local.storage.dir}/rules/team
+    rules.provider_cpptest_cs_team.id=cpptest_cs_team
+    rules.provider_cpptest_cs_team.mapping=${property:local.storage.dir}/rules/team/rulemap.xml
+    rules.provider_cpptest_cs_team.separator=-
+    rules.provider_cpptest_cs_team.share.path=c++test/rules
+    rules.provider_cpptest_cs_team.type=codingstandards
+    rules.provider_cpptest_cs_user.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_cs_user.categories=${property:cpptest.rule.dir.user}/categories.properties
+    rules.provider_cpptest_cs_user.data=${property:local.storage.dir}/rules/user/rules.xml
+    rules.provider_cpptest_cs_user.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_cpptest_cs_user.dir=${property:cpptest.rule.dir.user}
+    rules.provider_cpptest_cs_user.id=cpptest_cs_user
+    rules.provider_cpptest_cs_user.mapping=${property:cpptest.rule.dir.user}/rulemap.xml
+    rules.provider_cpptest_cs_user.separator=-
+    rules.provider_cpptest_cs_user.type=codingstandards
+    rules.provider_cpptest_fa_builtin.analyzer=com.parasoft.xtest.cpp.analyzer.static.flow
+    rules.provider_cpptest_fa_builtin.data=${cpptest:root_dir}/rules/builtin_fa/rules.xml
+    rules.provider_cpptest_fa_builtin.id=cpptest_fa_builtin
+    rules.provider_cpptest_fa_builtin.mapping=${cpptest:root_dir}/rules/builtin_fa/rulemap.xml
+    rules.provider_cpptest_fa_builtin.separator=-
+    rules.provider_cpptest_fa_builtin.type=flowanalysis
+    rules.provider_cpptest_fa_user.analyzer=com.parasoft.xtest.cpp.analyzer.static.flow
+    rules.provider_cpptest_fa_user.data=${cpptest:root_dir}/rules/user_fa/rules.xml
+    rules.provider_cpptest_fa_user.id=cpptest_fa_user
+    rules.provider_cpptest_fa_user.mapping=${cpptest:root_dir}/rules/user_fa/rulemap.xml
+    rules.provider_cpptest_fa_user.separator=-
+    rules.provider_cpptest_fa_user.type=flowanalysis
+    rules.provider_cpptest_metrics.analyzer=com.parasoft.xtest.cpp.analyzer.static.metrics
+    rules.provider_cpptest_metrics.data=${cpptest:root_dir}/rules/builtin_metrics/metrics.xml
+    rules.provider_cpptest_metrics.id=cpptest_metrics
+    rules.provider_cpptest_metrics.separator=.
+    rules.provider_cpptest_metrics.type=metrics
+    rules.provider_cpptest_pe_builtin.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_pe_builtin.data=${cpptest:root_dir}/rules/builtin_pe/rules.xml
+    rules.provider_cpptest_pe_builtin.id=cpptest_parseerrors_builtin
+    rules.provider_cpptest_pe_builtin.mapping=${cpptest:root_dir}/rules/builtin_pe/rulemap.xml
+    rules.provider_cpptest_pe_builtin.separator=-
+    rules.provider_cpptest_pe_builtin.type=codingstandards
+    runtime.command_line=cpptestcli -settings C:\Direct3D 1\.cpptest\.dtpengine\session_20180123_055657\engine.properties -config user://08975 rule set 2017 -input C:\Direct3D 1\.cpptest\.dtpengine\session_20180123_055657\bdf.lst -resource C:\Direct3D 1\.cpptest\.dtpengine\session_20180123_055657\resources.lst
+    runtime.ide_controlled=32313d4f2f29382c3d502e26321f525e473f2e2d4350262235
+    scontrol.cvs.exec=
+    scontrol.git.exec=git.exe
+    scontrol.svn.exec=svn
+    session.tag=08975 rule set 2017
+    suppression1.comment=//
+    suppression1.file.ext=${property:cpptest.testable.source.file.ext}|${property:cpptest.testable.header.file.ext}
+    suppression2.comment=/*
+    suppression2.file.ext=${property:cpptest.testable.source.file.ext}|${property:cpptest.testable.header.file.ext}
+    techsupport.archive.location=${property:local.storage.dir}
+    techsupport.create.on.exit=true
+    techsupport.enabled=false
+
+DIAGNOSTICS INFO:
+DTP autoconfiguration is not enabled.
+
+================================================================================================
+SERVICE: com.parasoft.xtest.techsupport.TechSupportService@8715b5
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    logging.scontrol.verbose=
+    techsupport.archive.location=./.cpptest
+    techsupport.create.on.exit=true
+    techsupport.enabled=false
+    techsupport.include.reports=
+
+DIAGNOSTICS INFO:
+Preferences class: com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences
+Current packages dir: C:\Direct3D 1\.cpptest\.dtpengine\.\.cpptest
+Total registered items: 8
+   com.parasoft.xtest.cpp.techsupport.CpptestLogsTechSupportItem, name: C++test log file, key: null
+   com.parasoft.xtest.reports.internal.ReportsTechSupportItem, name: Report files, key: techsupport.include.reports
+   com.parasoft.xtest.techsupport.internal.EnvironmentTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LogsTechSupportItem, name: Source control output, key: logging.scontrol.verbose
+   com.parasoft.xtest.techsupport.internal.DiagnosticsTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.ConsoleTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LicenseTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.TestConfigurationTechSupportItem, key: null
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.lic.client.internal.service.LicenseService@1862a7f
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    c++test.license.enabled=true
+    c++test.license.local.password=IDE*4436686e6c56736f684e2d27333143753a6171406df25a4d4d6b6f7a654d556179f655656e6c404d2c25352afff969
+    c++test.license.network.edition=custom_edition
+    c++test.license.network.type=dtp
+    c++test.license.use_network=false
+    license.start_deactivated=false
+
+DIAGNOSTICS INFO:
+Registered license definition providers:
+    com.parasoft.xtest.cpp.flowexecutor.license.CpptestLicenseDefinitionProvider
+
+License requirements statuses:
++ ------------------------- + ------------- +
+| Requirement               | Enabled/Limit |
++ ------------------------- + ------------- +
+| Max-Parallel-Jobs-Value   | -1            |
+| Max-Testables-Value       | -1            |
+| Bug-Detective             | false         |
+| Team-Share-Results-Upload | false         |
+| Source-Control            | true          |
+| Embedded-Testing          | true          |
+| Concerto-Access           | true          |
+| Code-Review               | true          |
+| Security                  | true          |
+| Parameterization          | true          |
+| Enforce-Max-Errors        | true          |
+| XML-Report-Generation     | true          |
+| Unit-Testing              | true          |
+| Application-Monitoring    | true          |
+| Rule-Wizard               | true          |
+| Coverage                  | true          |
+| Sniffer                   | true          |
+| Email-Reports             | true          |
+| Team-Share-Edit           | true          |
+| Command-Line-Execution    | true          |
+| Team-Share-Access         | true          |
+| Runtime-Error-Detection   | true          |
+| Native-Tests-Import       | true          |
+| Coding-Standards          | true          |
+| Main                      | true          |
++ ------------------------- + ------------- +
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.dtp.DtpServiceRegistry@101cfe5
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Connection settings: 
+    User: 546257
+    Password: 
+    Project: 
+    Server: 
+    Port: 8443
+
+Available services: 
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.parallel.ParallelExecutor@6afff2
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    parallel.mode=Auto
+
+DIAGNOSTICS INFO:
+    Max parallel jobs: 8
+    Max parallel jobs from license: -1
+    Max free memory limit: 25
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.scope.internal.ScopeAnalyzer@1659b30
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    .exclude.autogenerated.patterns.enabled=false
+    com.parasoft.xtest.checkers.api.scope.analysis.zone.enabled=false
+    com.parasoft.xtest.checkers.api.scope.branch=
+    com.parasoft.xtest.checkers.api.scope.col=false
+    com.parasoft.xtest.checkers.api.scope.cou=false
+    com.parasoft.xtest.checkers.api.scope.ctu=csswjv
+    com.parasoft.xtest.checkers.api.scope.default.branch=true
+    com.parasoft.xtest.checkers.api.scope.end.zone.analysis.markers=(.*)// parasoft-end-analysis(.*)
+    com.parasoft.xtest.checkers.api.scope.exclude.autogenerated.patterns=%28.*%29%2F%2F+autogenerated%28.*%29;%2F%2F+This+file+has+been+generated%28.*%29;%2F%2F*+File+generated+automatically%28.*%29;%28.*%29%3Cauto-generated%3E%28.*%29
+    com.parasoft.xtest.checkers.api.scope.modbefore=1314748800000
+    com.parasoft.xtest.checkers.api.scope.modfiles=0
+    com.parasoft.xtest.checkers.api.scope.modlines=0
+    com.parasoft.xtest.checkers.api.scope.modtime=315532800000
+    com.parasoft.xtest.checkers.api.scope.path.reject.wildcard=DirectXMath.h
+    com.parasoft.xtest.checkers.api.scope.rollingtime=7
+    com.parasoft.xtest.checkers.api.scope.skip.analysis.for.not.marked.files=true
+    com.parasoft.xtest.checkers.api.scope.start.zone.analysis.markers=(.*)// parasoft-start-analysis(.*)
+    scope.analysis.zone.enabled=false
+    scope.authors=csswjv
+    scope.branch=
+    scope.default.branch=true
+    scope.end.zone.analysis.markers=(.*)// parasoft-end-analysis(.*)
+    scope.exclude.autogenerated.patterns.enabled=false
+    scope.exclude.autogenerated.patterns=%28.*%29%2F%2F+autogenerated%28.*%29;%2F%2F+This+file+has+been+generated%28.*%29;%2F%2F*+File+generated+automatically%28.*%29;%28.*%29%3Cauto-generated%3E%28.*%29
+    scope.files.authors.filter.enabled=false
+    scope.files.time.filter.mode=0
+    scope.lines.authors.filter.enabled=false
+    scope.lines.time.filter.mode=0
+    scope.path.reject.wildcard=DirectXMath.h
+    scope.skip.analysis.for.not.marked.files=true
+    scope.start.zone.analysis.markers=(.*)// parasoft-start-analysis(.*)
+    scope.time.before.date=1314748800000
+    scope.time.cutoff.date=315532800000
+    scope.time.rollingtime=7
+
+DIAGNOSTICS INFO:
+Registered scope filters:
+    com.parasoft.xtest.cpp.filter.filename.FileNamePreFilter isEnabled=true
+    com.parasoft.xtest.scope.internal.filters.ScopePathsFilter isEnabled=true isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.ScopeResourcesFilter isEnabled=true isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.LargeFilesFilter isEnabled=false isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.ScopeContentFilter isEnabled=false isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.ScopeFilesFilter isEnabled=false isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.ScopeLinesFilter isEnabled=false isLicensed=true
+Literal settings:
+    acceptedPathsRE=
+    rejectedPathsRE=
+    acceptedPathsWildcards=
+    rejectedPathsWildcards=DirectXMath.h
+    excludeAutogeneratedEnabled=false
+    excludeAutogeneratedPatterns=[(.*)// autogenerated(.*), // This file has been generated(.*), //* File generated automatically(.*), (.*)<auto-generated>(.*)]
+    skipLargeFilesEnabled=false
+    largeFilesLimit=0
+State settings:
+    changedFilesPrefse=CHECK_ALL_FILES
+    changedLinesPrefse=CHECK_ALL_LINES
+    modifiedSinceTime=315532800000
+    modifiedBeforeTime=1314748800000
+    modifiedBeforeEnabled=false
+    rollingCutoffDays=7
+    checkOnlyUserFiles=false
+    doNotcheckRejectedUserFiles=false
+    checkOnlyUserLines=false
+    userNamesToCheck=[csswjv]
+    useDefaultIntegrationStream=true
+    branchName=
+Analyze zone settings:
+    analyzeZoneEnabled=false
+    skipAnalysisForNotMarkedFiles=true
+    startZoneMarkers=[(.*)// parasoft-start-analysis(.*)]
+    endZoneMarkers=[(.*)// parasoft-end-analysis(.*)]
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.internal.metrics.MetricsProcessor@19c97cb
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.rules.RuleLimitProcessor@15606db
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+DIAGNOSTICS INFO:
+Enabled: true
+Limit: 1000
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.locations.ResultLocationProcessor@122011b
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.rules.RulesProcessor@2059ae
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.sourcecontrol.SourceControlProcessor@49a9c1
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.internal.metadata.MetadataProcessor@5290e5
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Enabled in prefs: true (default)
+Registry available: true
+DTP enabled: false
+REST client present: false
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.internal.authorship.AuthorshipProcessor@1483de4
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.authorship.internal.computer.AuthorshipService@170bcf4
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Authorship computers:
+    com.parasoft.xtest.authorship.internal.computer.ScmAuthorshipComputer isEnabled=false
+    com.parasoft.xtest.authorship.internal.computer.XmlMapAuthorshipComputer isEnabled=false
+    com.parasoft.xtest.authorship.internal.computer.LocalUserAuthorshipComputer isEnabled=true
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.suppressions.SuppressionsProcessor@117dd67
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    com.parasoft.xtest.standards.api.ignore.suppressions=[undefined]
+    ignore.suppressions=[undefined]
+
+DIAGNOSTICS INFO:
+Enabled: true
+Registered suppressions services:
+    com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService type=comment
+    com.parasoft.xtest.suppressions.dtp.DtpSuppressionsService type=dtp
+    com.parasoft.xtest.suppressions.local.LocalSuppressionsService type=local
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService@12729ad
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Registered computers:
+    com.parasoft.xtest.suppressions.comment.SubstringSuppressionsComputer[cc, hh, cpp, cxx, c, h, hpp, hxx]
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.coverage.CoverageProcessor@53425f
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+Registered coverage services:
+    com.parasoft.xtest.coverage.CoverageService coverage types=
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.scontrol.internal.api.ScmService@9238f
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    scontrol.git.exec=git.exe
+    scontrol.svn.exec=svn
+
+DIAGNOSTICS INFO:
+Source control statuses: 
+    1. accurev (disabled, {com.parasoft.xtest.sourcecontrol.accurev.exec=accurev})
+    2. ccase (disabled, {com.parasoft.xtest.sourcecontrol.ccase.exec=cleartool})
+    3. cvs (enabled)
+    4. demo (disabled)
+    5. git (enabled, {com.parasoft.xtest.sourcecontrol.git.exec=git.exe})
+    6. hg (disabled, {com.parasoft.xtest.sourcecontrol.hg.exec=hg.exe})
+    7. perforce (disabled, {com.parasoft.xtest.sourcecontrol.perforce.exec=p4})
+    8. serena (disabled, {com.parasoft.xtest.sourcecontrol.serena.dmroot=<< Serena Dimensions client install directory >>})
+    9. starteam (disabled, {com.parasoft.xtest.sourcecontrol.starteam.sdk=<< StarTeam SDK install dir >>})
+    10. svn (enabled, {com.parasoft.xtest.sourcecontrol.svn.exec=svn})
+    11. synergy (disabled, {com.parasoft.xtest.sourcecontrol.synergy.exec=ccm})
+    12. tfs (disabled)
+    13. vss (disabled, {com.parasoft.xtest.sourcecontrol.vss.exec=ss.exe})
+Repository Descriptions: 
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.internal.goals.GoalsProcessor@196c360
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.authorship.internal.authors.AuthorsPreferences@b55f25
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Authors preferences:
+    IgnoreCase: false
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.share.internal.dtp.DTPSharingRepository@a575
+CONTEXT: com.parasoft.xtest.cpp.analyzer.code.URules$ContextNoConsole@12691d7
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    dtp.share.enabled=[undefined]
+
+DIAGNOSTICS INFO:
+    Enabled: false
+    Uri: null
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.share.internal.local.LocalSharingRepository@1432107
+CONTEXT: com.parasoft.xtest.cpp.analyzer.code.URules$ContextNoConsole@12691d7
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+    Enabled: true
+    Dir: C:\Direct3D 1\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.share\local
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.configuration.rules.RulesService@1ebaec9
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    rules.provider1.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider1.categories=file:/C:/Direct3D%201/.cpptest/.dtpengine/./.cpptest/rules/team/categories.properties
+    rules.provider1.data=file:/C:/Direct3D%201/.cpptest/.dtpengine/./.cpptest/rules/team/rules.xml
+    rules.provider1.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider1.dir=file:/C:/Direct3D%201/.cpptest/.dtpengine/./.cpptest/rules/team/
+    rules.provider1.id=cpptest_cs_team
+    rules.provider1.mapping=file:/C:/Direct3D%201/.cpptest/.dtpengine/./.cpptest/rules/team/rulemap.xml
+    rules.provider1.separator=-
+    rules.provider1.share.path=c++test/rules
+    rules.provider1.type=codingstandards
+    rules.provider10.analyzer=com.parasoft.xtest.cpp.analyzer.static.flow
+    rules.provider10.data=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin_fa/rules.xml
+    rules.provider10.id=cpptest_fa_builtin
+    rules.provider10.mapping=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin_fa/rulemap.xml
+    rules.provider10.separator=-
+    rules.provider10.type=flowanalysis
+    rules.provider11.analyzer=com.parasoft.xtest.cpp.analyzer.static.metrics
+    rules.provider11.data=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin_metrics/metrics.xml
+    rules.provider11.id=cpptest_metrics
+    rules.provider11.separator=.
+    rules.provider11.type=metrics
+    rules.provider2.analyzer=com.parasoft.xtest.cpp.analyzer.static.global
+    rules.provider2.data=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin_global/rules.xml
+    rules.provider2.id=cpptest_cs_global
+    rules.provider2.separator=-
+    rules.provider2.type=codingstandards
+    rules.provider3.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider3.categories=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin/en/categories.properties
+    rules.provider3.data=file:/C:/Direct3D%201/.cpptest/.dtpengine/./.cpptest/rules/builtin/rules.xml
+    rules.provider3.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider3.dir=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin/en/
+    rules.provider3.id=cpptest_cs_builtin
+    rules.provider3.mapping=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin/en/rulemap.xml
+    rules.provider3.separator=-
+    rules.provider3.type=codingstandards
+    rules.provider4.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider4.data=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin_pe/rules.xml
+    rules.provider4.id=cpptest_parseerrors_builtin
+    rules.provider4.mapping=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin_pe/rulemap.xml
+    rules.provider4.separator=-
+    rules.provider4.type=codingstandards
+    rules.provider5.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider5.categories=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/user/categories.properties
+    rules.provider5.data=file:/C:/Direct3D%201/.cpptest/.dtpengine/./.cpptest/rules/user/rules.xml
+    rules.provider5.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider5.dir=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/user
+    rules.provider5.id=cpptest_cs_user
+    rules.provider5.mapping=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/user/rulemap.xml
+    rules.provider5.separator=-
+    rules.provider5.type=codingstandards
+    rules.provider6.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider6.data=file:/C:/Users/546257/AppData/Local/Xtest/.plugins.vs/com.parasoft.xtest.staticanalyzer.vstudio.core.cpp/urules/rules.xml
+    rules.provider6.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider6.dir=file:/C:/Users/546257/AppData/Local/Xtest/.plugins.vs/com.parasoft.xtest.staticanalyzer.vstudio.core.cpp/urules/
+    rules.provider6.id=StaticAnalyzerUserRuleProvider
+    rules.provider6.mapping=file:/C:/Users/546257/AppData/Local/Xtest/.plugins.vs/com.parasoft.xtest.staticanalyzer.vstudio.core.cpp/urules/rulemap.xml
+    rules.provider6.separator=-
+    rules.provider6.type=codingstandards
+    rules.provider7.analyzer=com.parasoft.xtest.cpp.analyzer.static.dupcode
+    rules.provider7.data=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/builtin_cdd/rules.xml
+    rules.provider7.id=cpptest_cdd
+    rules.provider7.separator=-
+    rules.provider7.type=codeduplication
+    rules.provider8.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider8.data=file:/C:/Users/546257/AppData/Local/Xtest/.plugins.vs/com.parasoft.xtest.staticanalyzer.vstudio.core.cpp/trules/rules.xml
+    rules.provider8.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider8.dir=file:/C:/Users/546257/AppData/Local/Xtest/.plugins.vs/com.parasoft.xtest.staticanalyzer.vstudio.core.cpp/trules/
+    rules.provider8.id=StaticAnalyzerTeamRuleProvider
+    rules.provider8.mapping=file:/C:/Users/546257/AppData/Local/Xtest/.plugins.vs/com.parasoft.xtest.staticanalyzer.vstudio.core.cpp/trules/rulemap.xml
+    rules.provider8.separator=-
+    rules.provider8.type=codingstandards
+    rules.provider9.analyzer=com.parasoft.xtest.cpp.analyzer.static.flow
+    rules.provider9.data=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/user_fa/rules.xml
+    rules.provider9.id=cpptest_fa_user
+    rules.provider9.mapping=file:/C:/Program%20Files%20(x86)/Parasoft/C++test%20for%20Visual%20Studio/10.3/engine/dtp/rules/user_fa/rulemap.xml
+    rules.provider9.separator=-
+    rules.provider9.type=flowanalysis
+
+DIAGNOSTICS INFO:
+com.parasoft.xtest.cpp.analyzer.static.pattern rules (providerId=cpptest_cs_team):
+Rules count: 0
+com.parasoft.xtest.cpp.analyzer.static.global rules (providerId=cpptest_cs_global):
+    MISRA2012-RULE-8_6 (severity=2) Cloned From -> GLOBAL-ONEEXTERNDEF
+    GLOBAL-CONDMUTEXVAR (severity=3)
+    GLOBAL-ONEEXTERNDEF (severity=3)
+    GLOBAL-AVOIDEXTERN (severity=4)
+    MISRA2012-RULE-8_7 (severity=4) Cloned From -> GLOBAL-AVOIDEXTERN
+Rules count: 5
+com.parasoft.xtest.cpp.analyzer.static.pattern rules (providerId=cpptest_cs_builtin):
+    CODSTA-22 (severity=1)
+    CODSTA-39 (severity=1)
+    CODSTA-44 (severity=1)
+    CODSTA-45 (severity=1)
+    CODSTA-CPP-04 (severity=1)
+    CODSTA-CPP-05 (severity=1)
+    CODSTA-CPP-65 (severity=1)
+    EXCEPT-01 (severity=1)
+    EXCEPT-02 (severity=1)
+    EXCEPT-03 (severity=1)
+    EXCEPT-11 (severity=1)
+    INIT-05 (severity=1)
+    INIT-06 (severity=1)
+    INIT-09 (severity=1)
+    INIT-13_a (severity=1)
+    INIT-13_b (severity=1)
+    MISRA2004-12_2_b (severity=1)
+    MISRA2012-RULE-12_5 (severity=1) Cloned From -> CODSTA-182
+    MISRA2012-RULE-13_6_a (severity=1) Cloned From -> MISRA2004-12_3
+    MISRA2012-RULE-13_6_b (severity=1) Cloned From -> MISRA2004-12_3_b
+    MISRA2012-RULE-13_6_c (severity=1) Cloned From -> CODSTA-137
+    MISRA2012-RULE-17_3 (severity=1) Cloned From -> MISRA-071_b
+    MISRA2012-RULE-17_4 (severity=1) Cloned From -> MISRA2004-16_8
+    MISRA2012-RULE-17_6 (severity=1) Cloned From -> CODSTA-160
+    MISRA2012-RULE-19_1_a (severity=1) Cloned From -> MISRA2004-18_2
+    MISRA2012-RULE-19_1_b (severity=1) Cloned From -> MISRA2004-18_2_b
+    MISRA2012-RULE-21_19_a (severity=1) Cloned From -> CODSTA-185_a
+    MISRA2012-RULE-21_19_b (severity=1) Cloned From -> CODSTA-185_b
+    MISRA2012-RULE-22_5_a (severity=1) Cloned From -> CODSTA-166_a
+    MISRA2012-RULE-22_5_b (severity=1) Cloned From -> CODSTA-166_b
+    MRM-01 (severity=1)
+    MRM-06 (severity=1)
+    MRM-08 (severity=1)
+    MRM-32 (severity=1)
+    MRM-37 (severity=1)
+    MRM-38 (severity=1)
+    OOP-03 (severity=1)
+    OOP-07 (severity=1)
+    OOP-08 (severity=1)
+    OOP-16 (severity=1)
+    OOP-16_b (severity=1)
+    OOP-22 (severity=1)
+    OOP-24 (severity=1)
+    OOP-29 (severity=1)
+    OOP-31 (severity=1)
+    OOP-38 (severity=1)
+    OOP-49 (severity=1)
+    PB-13 (severity=1)
+    PB-21 (severity=1)
+    PB-23 (severity=1)
+    QT-04 (severity=1)
+    QT-07 (severity=1)
+    QT-09 (severity=1)
+    QT-12 (severity=1)
+    SECURITY-16 (severity=1)
+    CODSTA-08 (severity=2)
+    CODSTA-142 (severity=2)
+    CODSTA-15 (severity=2)
+    CODSTA-16 (severity=2)
+    CODSTA-160 (severity=2)
+    CODSTA-166_a (severity=2)
+    CODSTA-166_b (severity=2)
+    CODSTA-182 (severity=2)
+    CODSTA-185_a (severity=2)
+    CODSTA-20 (severity=2)
+    CODSTA-51 (severity=2)
+    CODSTA-55 (severity=2)
+    CODSTA-CPP-19 (severity=2)
+    CODSTA-CPP-55 (severity=2)
+    CODSTA-CPP-55_b (severity=2)
+    CODSTA-MCPP-07 (severity=2)
+    CODSTA-MCPP-08_a (severity=2)
+    CODSTA-MCPP-08_b (severity=2)
+    COMMENT-13 (severity=2)
+    EXCEPT-04 (severity=2)
+    EXCEPT-05 (severity=2)
+    INIT-04 (severity=2)
+    INIT-11 (severity=2)
+    JSF-003 (severity=2) Cloned From -> METRICS-28
+    JSF-003_b (severity=2) Cloned From -> METRICS-42
+    JSF-014 (severity=2) Cloned From -> PORT-01
+    JSF-015 (severity=2) Cloned From -> MISRA-004_a
+    JSF-017 (severity=2) Cloned From -> MISRA2004-20_5
+    JSF-018 (severity=2) Cloned From -> MISRA2004-20_6
+    JSF-019 (severity=2) Cloned From -> MISRA-121_a
+    JSF-019_b (severity=2) Cloned From -> MISRA-121_b
+    JSF-020 (severity=2) Cloned From -> MISRA2004-20_7
+    JSF-020_b (severity=2) Cloned From -> MISRA2004-20_7_b
+    JSF-021 (severity=2) Cloned From -> MISRA2004-20_8
+    JSF-021_b (severity=2) Cloned From -> MISRA2004-20_8_b
+    JSF-022 (severity=2) Cloned From -> PREPROC-18
+    JSF-023 (severity=2) Cloned From -> MISRA2004-20_10
+    JSF-024 (severity=2) Cloned From -> MISRA2004-20_11
+    JSF-025 (severity=2) Cloned From -> MISRA2004-20_12
+    JSF-026 (severity=2) Cloned From -> PREPROC-11
+    JSF-029 (severity=2) Cloned From -> MISRA2004-19_7
+    JSF-030 (severity=2) Cloned From -> CODSTA-03
+    JSF-033 (severity=2) Cloned From -> PREPROC-09
+    JSF-046 (severity=2) Cloned From -> PORT-25
+    JSF-052 (severity=2) Cloned From -> NAMING-42
+    JSF-053.1 (severity=2) Cloned From -> PB-28
+    JSF-059_a (severity=2) Cloned From -> MISRA2004-14_8
+    JSF-059_b (severity=2) Cloned From -> MISRA2004-14_9
+    JSF-068 (severity=2) Cloned From -> MRM-50
+    JSF-070.1 (severity=2) Cloned From -> MRM-31
+    JSF-070.1_b (severity=2) Cloned From -> MRM-31_b
+    JSF-071 (severity=2) Cloned From -> PB-26
+    JSF-071.1 (severity=2) Cloned From -> OOP-16
+    JSF-071.1_b (severity=2) Cloned From -> OOP-16_b
+    JSF-071_b (severity=2) Cloned From -> INIT-06
+    JSF-071_c (severity=2) Cloned From -> OOP-16
+    JSF-071_d (severity=2) Cloned From -> INIT-13_a
+    JSF-071_e (severity=2) Cloned From -> INIT-13_b
+    JSF-071_f (severity=2) Cloned From -> INIT-13_c
+    JSF-075 (severity=2) Cloned From -> INIT-10
+    JSF-076 (severity=2) Cloned From -> MRM-49
+    JSF-077 (severity=2) Cloned From -> MRM-41
+    JSF-077.1 (severity=2) Cloned From -> PB-24
+    JSF-078 (severity=2) Cloned From -> OOP-22
+    JSF-079 (severity=2) Cloned From -> MRM-42
+    JSF-079_b (severity=2) Cloned From -> MRM-33
+    JSF-081 (severity=2) Cloned From -> OOP-34
+    JSF-082 (severity=2) Cloned From -> CODSTA-CPP-02
+    JSF-083_a (severity=2) Cloned From -> INIT-11
+    JSF-083_b (severity=2) Cloned From -> MRM-43
+    JSF-088 (severity=2) Cloned From -> OOP-07_a
+    JSF-088.1 (severity=2) Cloned From -> OOP-39_b
+    JSF-088_b (severity=2) Cloned From -> OOP-07_b
+    JSF-089 (severity=2) Cloned From -> OOP-41
+    JSF-094 (severity=2) Cloned From -> OOP-32
+    JSF-094_b (severity=2) Cloned From -> OOP-53
+    JSF-095 (severity=2) Cloned From -> OOP-13
+    JSF-096 (severity=2) Cloned From -> PB-57
+    JSF-097 (severity=2) Cloned From -> CODSTA-CPP-55
+    JSF-097.1 (severity=2) Cloned From -> CODSTA-CPP-79
+    JSF-097_b (severity=2) Cloned From -> CODSTA-CPP-55_b
+    JSF-097_c (severity=2) Cloned From -> CODSTA-142
+    JSF-097_d (severity=2) Cloned From -> PB-41_b
+    JSF-097_e (severity=2) Cloned From -> CODSTA-142_b
+    JSF-107 (severity=2) Cloned From -> MISRA2004-8_6
+    JSF-108 (severity=2) Cloned From -> MISRA-069
+    JSF-111 (severity=2) Cloned From -> MISRA2004-17_6_a
+    JSF-111_a (severity=2) Cloned From -> PB-39
+    JSF-114 (severity=2) Cloned From -> MISRA2004-16_8
+    JSF-119 (severity=2) Cloned From -> MISRA2004-16_2
+    JSF-126 (severity=2) Cloned From -> COMMENT-01
+    JSF-127 (severity=2) Cloned From -> MISRA2004-2_4
+    JSF-135_a (severity=2) Cloned From -> MISRA2004-5_2_a
+    JSF-135_b (severity=2) Cloned From -> MISRA2004-5_2_b
+    JSF-135_c (severity=2) Cloned From -> CODSTA-CPP-83
+    JSF-135_d (severity=2) Cloned From -> CODSTA-CPP-84
+    JSF-135_e (severity=2) Cloned From -> CODSTA-CPP-85
+    JSF-138_a (severity=2) Cloned From -> MISRA-024
+    JSF-138_b (severity=2) Cloned From -> MISRA2004-8_11
+    JSF-140 (severity=2) Cloned From -> MISRA-028
+    JSF-142_a (severity=2) Cloned From -> MISRA-030
+    JSF-142_b (severity=2) Cloned From -> INIT-03
+    JSF-144 (severity=2) Cloned From -> MISRA2004-9_2
+    JSF-145 (severity=2) Cloned From -> MISRA2004-9_3
+    JSF-147 (severity=2) Cloned From -> MISRA-016
+    JSF-148 (severity=2) Cloned From -> CODSTA-55
+    JSF-149 (severity=2) Cloned From -> MISRA2004-7_1_a
+    JSF-151.1 (severity=2) Cloned From -> PB-27
+    JSF-152 (severity=2) Cloned From -> FORMAT-29
+    JSF-153 (severity=2) Cloned From -> MISRA2004-18_4
+    JSF-154 (severity=2) Cloned From -> CODSTA-96
+    JSF-156 (severity=2) Cloned From -> MISRA-113
+    JSF-157 (severity=2) Cloned From -> MISRA2004-12_4_a
+    JSF-158 (severity=2) Cloned From -> CODSTA-104
+    JSF-159 (severity=2) Cloned From -> CODSTA-CPP-08
+    JSF-159_b (severity=2) Cloned From -> CODSTA-CPP-68
+    JSF-160 (severity=2) Cloned From -> MISRA2004-13_1
+    JSF-162_a (severity=2) Cloned From -> CODSTA-99
+    JSF-162_b (severity=2) Cloned From -> CODSTA-101
+    JSF-162_c (severity=2) Cloned From -> CODSTA-100
+    JSF-163 (severity=2) Cloned From -> PB-25
+    JSF-164 (severity=2) Cloned From -> MISRA2004-12_8
+    JSF-164.1 (severity=2) Cloned From -> PB-29
+    JSF-165 (severity=2) Cloned From -> MISRA2004-12_9
+    JSF-167_a (severity=2) Cloned From -> PB-15
+    JSF-168_b (severity=2) Cloned From -> MISRA2004-12_10
+    JSF-170 (severity=2) Cloned From -> MISRA2004-17_5
+    JSF-171 (severity=2) Cloned From -> MISRA2004-17_3
+    JSF-173 (severity=2) Cloned From -> MISRA2004-17_6_b
+    JSF-174_a (severity=2) Cloned From -> MISRA-107_a
+    JSF-174_b (severity=2) Cloned From -> MISRA-107_b
+    JSF-175 (severity=2) Cloned From -> CODSTA-17
+    JSF-178 (severity=2) Cloned From -> OOP-35
+    JSF-179 (severity=2) Cloned From -> OOP-50
+    JSF-180_a (severity=2) Cloned From -> MISRA-043
+    JSF-180_b (severity=2) Cloned From -> MISRA2004-10_2_a
+    JSF-180_c (severity=2) Cloned From -> MISRA2004-10_2_b
+    JSF-180_d (severity=2) Cloned From -> PORT-28
+    JSF-180_e (severity=2) Cloned From -> PB-56
+    JSF-180_f (severity=2) Cloned From -> MISRA-043_c
+    JSF-180_g (severity=2) Cloned From -> MISRA-043_d
+    JSF-182 (severity=2) Cloned From -> CODSTA-135
+    JSF-184_a (severity=2) Cloned From -> MISRA2004-10_2_a
+    JSF-185 (severity=2) Cloned From -> CODSTA-CPP-66
+    JSF-186_a (severity=2) Cloned From -> MISRA2004-14_1_a
+    JSF-186_b (severity=2) Cloned From -> MISRA2004-14_1_b
+    JSF-186_c (severity=2) Cloned From -> MISRA2004-14_1_c
+    JSF-186_d (severity=2) Cloned From -> MISRA2004-14_1_d
+    JSF-186_e (severity=2) Cloned From -> MISRA2004-14_1_e
+    JSF-186_f (severity=2) Cloned From -> MISRA2004-14_1_f
+    JSF-186_g (severity=2) Cloned From -> MISRA2004-14_1_g
+    JSF-186_h (severity=2) Cloned From -> OPT-30
+    JSF-187 (severity=2) Cloned From -> MISRA2004-14_2
+    JSF-189 (severity=2) Cloned From -> MISRA2004-14_4
+    JSF-190 (severity=2) Cloned From -> MISRA2004-14_5
+    JSF-191 (severity=2) Cloned From -> MISRA-058
+    JSF-191_a (severity=2) Cloned From -> CODSTA-79
+    JSF-193 (severity=2) Cloned From -> MISRA2004-15_2
+    JSF-194 (severity=2) Cloned From -> CODSTA-61
+    JSF-197 (severity=2) Cloned From -> MISRA-065
+    JSF-201 (severity=2) Cloned From -> MISRA2004-13_6
+    JSF-202 (severity=2) Cloned From -> MISRA2004-13_3
+    JSF-203 (severity=2) Cloned From -> MISRA-051
+    JSF-204.1_a (severity=2) Cloned From -> MISRA2004-12_2_a
+    JSF-204.1_b (severity=2) Cloned From -> MISRA2004-12_2_b
+    JSF-204.1_c (severity=2) Cloned From -> MISRA2004-12_2_c
+    JSF-204.1_d (severity=2) Cloned From -> MISRA2004-12_2_d
+    JSF-204.1_e (severity=2) Cloned From -> MISRA2004-12_2_e
+    JSF-204.1_f (severity=2) Cloned From -> MISRA2004-12_2_f
+    JSF-204.1_g (severity=2) Cloned From -> MISRA2004-12_2_g
+    JSF-204_a (severity=2) Cloned From -> CODSTA-102
+    JSF-204_b (severity=2) Cloned From -> CODSTA-103
+    JSF-204_d (severity=2) Cloned From -> CODSTA-105
+    JSF-205 (severity=2) Cloned From -> MISRA-046_a
+    JSF-206 (severity=2) Cloned From -> MISRA2004-20_4
+    JSF-208 (severity=2) Cloned From -> EXCEPT-05
+    JSF-209 (severity=2) Cloned From -> MISRA2004-6_3
+    JSF-209_b (severity=2) Cloned From -> MISRA2004-6_3_b
+    JSF-210.1 (severity=2) Cloned From -> PORT-26
+    JSF-211 (severity=2) Cloned From -> MISRA2004-11_4
+    JSF-213_e (severity=2) Cloned From -> CODSTA-97
+    JSF-214 (severity=2) Cloned From -> INIT-12
+    MISRA2012-DIR-4_10 (severity=2) Cloned From -> PFO-02
+    MISRA2012-DIR-4_12 (severity=2) Cloned From -> MISRA2004-20_4
+    MISRA2012-DIR-4_1_i (severity=2) Cloned From -> MISRA2004-17_2
+    MISRA2012-DIR-4_1_j (severity=2) Cloned From -> MISRA2004-17_3
+    MISRA2012-DIR-4_3 (severity=2) Cloned From -> MISRA2004-2_1
+    MISRA2012-RULE-10_1_a (severity=2) Cloned From -> CODSTA-161_a
+    MISRA2012-RULE-10_1_b (severity=2) Cloned From -> CODSTA-161_b
+    MISRA2012-RULE-10_1_c (severity=2) Cloned From -> CODSTA-161_c
+    MISRA2012-RULE-10_1_d (severity=2) Cloned From -> CODSTA-161_d
+    MISRA2012-RULE-10_1_e (severity=2) Cloned From -> CODSTA-161_e
+    MISRA2012-RULE-10_1_f (severity=2) Cloned From -> CODSTA-161_f
+    MISRA2012-RULE-10_1_g (severity=2) Cloned From -> CODSTA-161_g
+    MISRA2012-RULE-10_2 (severity=2) Cloned From -> CODSTA-162
+    MISRA2012-RULE-10_3_a (severity=2) Cloned From -> CODSTA-163_a
+    MISRA2012-RULE-10_3_b (severity=2) Cloned From -> CODSTA-163_b
+    MISRA2012-RULE-10_4_a (severity=2) Cloned From -> CODSTA-164_a
+    MISRA2012-RULE-10_4_b (severity=2) Cloned From -> CODSTA-164_b
+    MISRA2012-RULE-10_6 (severity=2) Cloned From -> CODSTA-157
+    MISRA2012-RULE-10_7_a (severity=2) Cloned From -> CODSTA-156_a
+    MISRA2012-RULE-10_7_b (severity=2) Cloned From -> CODSTA-156_b
+    MISRA2012-RULE-10_8 (severity=2) Cloned From -> CODSTA-152
+    MISRA2012-RULE-11_1_a (severity=2) Cloned From -> CODSTA-124_a
+    MISRA2012-RULE-11_1_b (severity=2) Cloned From -> CODSTA-124_b
+    MISRA2012-RULE-11_2 (severity=2) Cloned From -> CODSTA-125
+    MISRA2012-RULE-11_3 (severity=2) Cloned From -> CODSTA-126
+    MISRA2012-RULE-11_6 (severity=2) Cloned From -> CODSTA-129_a
+    MISRA2012-RULE-11_7 (severity=2) Cloned From -> CODSTA-130
+    MISRA2012-RULE-11_8 (severity=2) Cloned From -> MISRA2004-11_5
+    MISRA2012-RULE-11_9_a (severity=2) Cloned From -> CODSTA-CPP-63
+    MISRA2012-RULE-11_9_b (severity=2) Cloned From -> CODSTA-131
+    MISRA2012-RULE-12_2 (severity=2) Cloned From -> MISRA2004-12_8
+    MISRA2012-RULE-13_1_a (severity=2) Cloned From -> CODSTA-141_a
+    MISRA2012-RULE-13_2_a (severity=2) Cloned From -> MISRA2004-12_2_a
+    MISRA2012-RULE-13_2_b (severity=2) Cloned From -> MISRA2004-12_2_b
+    MISRA2012-RULE-13_2_c (severity=2) Cloned From -> MISRA2004-12_2_c
+    MISRA2012-RULE-13_2_d (severity=2) Cloned From -> MISRA2004-12_2_d
+    MISRA2012-RULE-13_2_e (severity=2) Cloned From -> MISRA2004-12_2_e
+    MISRA2012-RULE-13_2_f (severity=2) Cloned From -> MISRA2004-12_2_f
+    MISRA2012-RULE-13_2_g (severity=2) Cloned From -> MISRA2004-12_2_g
+    MISRA2012-RULE-13_5 (severity=2) Cloned From -> MISRA2004-12_4_a
+    MISRA2012-RULE-14_1_a (severity=2) Cloned From -> CODSTA-167_a
+    MISRA2012-RULE-14_1_b (severity=2) Cloned From -> CODSTA-167_b
+    MISRA2012-RULE-14_2_a (severity=2) Cloned From -> CODSTA-168
+    MISRA2012-RULE-14_2_b (severity=2) Cloned From -> CODSTA-169_a
+    MISRA2012-RULE-14_2_c (severity=2) Cloned From -> CODSTA-169_b
+    MISRA2012-RULE-14_2_d (severity=2) Cloned From -> CODSTA-169_c
+    MISRA2012-RULE-14_3_a (severity=2) Cloned From -> MISRA2004-13_7_a
+    MISRA2012-RULE-14_3_b (severity=2) Cloned From -> MISRA2004-13_7_b
+    MISRA2012-RULE-14_3_c (severity=2) Cloned From -> MISRA2004-13_7_c
+    MISRA2012-RULE-14_3_d (severity=2) Cloned From -> MISRA2004-13_7_d
+    MISRA2012-RULE-14_3_e (severity=2) Cloned From -> MISRA2004-13_7_j
+    MISRA2012-RULE-14_3_f (severity=2) Cloned From -> MISRA2004-13_7_k
+    MISRA2012-RULE-14_3_g (severity=2) Cloned From -> MISRA2004-13_7_l
+    MISRA2012-RULE-14_3_h (severity=2) Cloned From -> MISRA2004-13_7_m
+    MISRA2012-RULE-14_3_i (severity=2) Cloned From -> MISRA2004-13_7_n
+    MISRA2012-RULE-14_3_j (severity=2) Cloned From -> MISRA2004-13_7_s
+    MISRA2012-RULE-14_3_k (severity=2) Cloned From -> MISRA2004-13_7_t
+    MISRA2012-RULE-14_3_l (severity=2) Cloned From -> MISRA2004-13_7_u
+    MISRA2012-RULE-14_3_m (severity=2) Cloned From -> MISRA2004-13_7_v
+    MISRA2012-RULE-14_3_n (severity=2) Cloned From -> MISRA2004-13_7_w
+    MISRA2012-RULE-14_3_o (severity=2) Cloned From -> MISRA2004-13_7_x
+    MISRA2012-RULE-14_3_p (severity=2) Cloned From -> MISRA2004-13_7_y
+    MISRA2012-RULE-14_3_q (severity=2) Cloned From -> MISRA2004-13_7_z
+    MISRA2012-RULE-14_3_r (severity=2) Cloned From -> MISRA2004-13_7_aa
+    MISRA2012-RULE-14_3_s (severity=2) Cloned From -> MISRA2004-13_7_ab
+    MISRA2012-RULE-14_3_t (severity=2) Cloned From -> MISRA2004-13_7_ac
+    MISRA2012-RULE-14_3_u (severity=2) Cloned From -> MISRA2004-13_7_ad
+    MISRA2012-RULE-14_3_v (severity=2) Cloned From -> MISRA2004-13_7_ae
+    MISRA2012-RULE-14_3_w (severity=2) Cloned From -> MISRA2004-13_7_af
+    MISRA2012-RULE-14_3_x (severity=2) Cloned From -> MISRA2004-13_7_ag
+    MISRA2012-RULE-14_3_y (severity=2) Cloned From -> MISRA2004-13_7_ah
+    MISRA2012-RULE-14_3_z (severity=2) Cloned From -> MISRA2004-13_7_ai
+    MISRA2012-RULE-14_3_za (severity=2) Cloned From -> MISRA2004-13_7_aj
+    MISRA2012-RULE-14_3_zb (severity=2) Cloned From -> MISRA2004-13_7_ak
+    MISRA2012-RULE-14_4 (severity=2) Cloned From -> MISRA2004-13_2
+    MISRA2012-RULE-15_2 (severity=2) Cloned From -> CODSTA-77
+    MISRA2012-RULE-15_3 (severity=2) Cloned From -> CODSTA-78
+    MISRA2012-RULE-15_6_a (severity=2) Cloned From -> MISRA2004-14_8
+    MISRA2012-RULE-15_6_b (severity=2) Cloned From -> MISRA2004-14_9
+    MISRA2012-RULE-15_7 (severity=2) Cloned From -> MISRA2004-14_10
+    MISRA2012-RULE-16_1_a (severity=2) Cloned From -> MISRA2004-15_0_b
+    MISRA2012-RULE-16_1_b (severity=2) Cloned From -> MISRA2004-15_1
+    MISRA2012-RULE-16_1_c (severity=2) Cloned From -> MISRA2004-15_2
+    MISRA2012-RULE-16_1_d (severity=2) Cloned From -> MISRA2004-15_2_b
+    MISRA2012-RULE-16_1_e (severity=2) Cloned From -> CODSTA-35
+    MISRA2012-RULE-16_1_f (severity=2) Cloned From -> CODSTA-119
+    MISRA2012-RULE-16_1_g (severity=2) Cloned From -> CODSTA-116
+    MISRA2012-RULE-16_1_h (severity=2) Cloned From -> OPT-39
+    MISRA2012-RULE-16_2 (severity=2) Cloned From -> MISRA2004-15_1
+    MISRA2012-RULE-16_3_a (severity=2) Cloned From -> MISRA2004-15_2
+    MISRA2012-RULE-16_3_b (severity=2) Cloned From -> MISRA2004-15_2_b
+    MISRA2012-RULE-16_4_a (severity=2) Cloned From -> CODSTA-35
+    MISRA2012-RULE-16_4_b (severity=2) Cloned From -> CODSTA-119
+    MISRA2012-RULE-16_5 (severity=2) Cloned From -> CODSTA-116
+    MISRA2012-RULE-16_6 (severity=2) Cloned From -> OPT-39
+    MISRA2012-RULE-16_7_a (severity=2) Cloned From -> MISRA2004-15_4
+    MISRA2012-RULE-16_7_b (severity=2) Cloned From -> MISRA2004-15_4_b
+    MISRA2012-RULE-17_1_a (severity=2) Cloned From -> CODSTA-136_a
+    MISRA2012-RULE-17_1_b (severity=2) Cloned From -> CODSTA-136_b
+    MISRA2012-RULE-17_2 (severity=2) Cloned From -> MISRA2004-16_2
+    MISRA2012-RULE-17_7_a (severity=2) Cloned From -> CODSTA-122_a
+    MISRA2012-RULE-17_7_b (severity=2) Cloned From -> CODSTA-122_b
+    MISRA2012-RULE-18_2 (severity=2) Cloned From -> MISRA2004-17_2
+    MISRA2012-RULE-18_3 (severity=2) Cloned From -> MISRA2004-17_3
+    MISRA2012-RULE-18_6_a (severity=2) Cloned From -> MISRA2004-17_6_a
+    MISRA2012-RULE-18_6_b (severity=2) Cloned From -> MISRA2004-17_6_b
+    MISRA2012-RULE-18_7 (severity=2) Cloned From -> CODSTA-113
+    MISRA2012-RULE-18_8 (severity=2) Cloned From -> CODSTA-112
+    MISRA2012-RULE-1_1_a_c90 (severity=2) Cloned From -> CODSTA-174_a_c90
+    MISRA2012-RULE-1_1_a_c99 (severity=2) Cloned From -> CODSTA-174_a_c99
+    MISRA2012-RULE-1_1_b_c90 (severity=2) Cloned From -> CODSTA-174_b_c90
+    MISRA2012-RULE-1_1_b_c99 (severity=2) Cloned From -> CODSTA-174_b_c99
+    MISRA2012-RULE-1_3_f (severity=2) Cloned From -> MISRA2004-12_2_a
+    MISRA2012-RULE-1_3_g (severity=2) Cloned From -> MISRA2004-12_2_b
+    MISRA2012-RULE-1_3_h (severity=2) Cloned From -> MISRA2004-12_2_c
+    MISRA2012-RULE-1_3_i (severity=2) Cloned From -> MISRA2004-12_2_d
+    MISRA2012-RULE-1_3_j (severity=2) Cloned From -> MISRA2004-12_2_e
+    MISRA2012-RULE-1_3_k (severity=2) Cloned From -> MISRA2004-12_2_f
+    MISRA2012-RULE-1_3_l (severity=2) Cloned From -> MISRA2004-12_2_g
+    MISRA2012-RULE-1_3_m (severity=2) Cloned From -> MISRA2004-17_6_a
+    MISRA2012-RULE-1_3_n (severity=2) Cloned From -> MISRA2004-17_6_b
+    MISRA2012-RULE-1_3_o (severity=2) Cloned From -> PB-29
+    MISRA2012-RULE-20_11 (severity=2) Cloned From -> PREPROC-16
+    MISRA2012-RULE-20_12 (severity=2) Cloned From -> PREPROC-17
+    MISRA2012-RULE-20_13 (severity=2) Cloned From -> MISRA2004-19_16
+    MISRA2012-RULE-20_14 (severity=2) Cloned From -> MISRA2004-19_17
+    MISRA2012-RULE-20_2_a (severity=2) Cloned From -> NAMING-46
+    MISRA2012-RULE-20_2_b (severity=2) Cloned From -> NAMING-48
+    MISRA2012-RULE-20_3 (severity=2) Cloned From -> MISRA-089
+    MISRA2012-RULE-20_4_a (severity=2) Cloned From -> CODSTA-133_a
+    MISRA2012-RULE-20_4_b (severity=2) Cloned From -> CODSTA-133_b
+    MISRA2012-RULE-20_6 (severity=2) Cloned From -> MISRA2004-19_9
+    MISRA2012-RULE-20_7 (severity=2) Cloned From -> MISRA2004-19_10
+    MISRA2012-RULE-20_8 (severity=2) Cloned From -> PREPROC-19
+    MISRA2012-RULE-20_9_a (severity=2) Cloned From -> MISRA2004-19_11
+    MISRA2012-RULE-20_9_b (severity=2) Cloned From -> MISRA2004-19_11_b
+    MISRA2012-RULE-21_10 (severity=2) Cloned From -> SECURITY-01
+    MISRA2012-RULE-21_11 (severity=2) Cloned From -> CODSTA-108
+    MISRA2012-RULE-21_15 (severity=2) Cloned From -> CODSTA-183
+    MISRA2012-RULE-21_16 (severity=2) Cloned From -> CODSTA-184
+    MISRA2012-RULE-21_1_a (severity=2) Cloned From -> MISRA2004-20_1_a
+    MISRA2012-RULE-21_1_b (severity=2) Cloned From -> CODSTA-92_a
+    MISRA2012-RULE-21_1_c (severity=2) Cloned From -> CODSTA-92_b
+    MISRA2012-RULE-21_1_d (severity=2) Cloned From -> MISRA2004-20_1_e
+    MISRA2012-RULE-21_2_a (severity=2) Cloned From -> MISRA2004-20_2
+    MISRA2012-RULE-21_2_b (severity=2) Cloned From -> MISRA2004-20_2_a
+    MISRA2012-RULE-21_2_c (severity=2) Cloned From -> MISRA2004-20_2_b
+    MISRA2012-RULE-21_3 (severity=2) Cloned From -> MISRA2004-20_4
+    MISRA2012-RULE-21_4_a (severity=2) Cloned From -> MISRA2004-20_7
+    MISRA2012-RULE-21_4_b (severity=2) Cloned From -> MISRA2004-20_7_b
+    MISRA2012-RULE-21_5_a (severity=2) Cloned From -> MISRA2004-20_8
+    MISRA2012-RULE-21_5_b (severity=2) Cloned From -> MISRA2004-20_8_b
+    MISRA2012-RULE-21_6 (severity=2) Cloned From -> CODSTA-110
+    MISRA2012-RULE-21_7 (severity=2) Cloned From -> MISRA2004-20_10
+    MISRA2012-RULE-21_8 (severity=2) Cloned From -> MISRA2004-20_11
+    MISRA2012-RULE-21_9 (severity=2) Cloned From -> CODSTA-107
+    MISRA2012-RULE-2_1_a (severity=2) Cloned From -> MISRA2004-14_1_a
+    MISRA2012-RULE-2_1_b (severity=2) Cloned From -> MISRA2004-14_1_b
+    MISRA2012-RULE-2_1_c (severity=2) Cloned From -> MISRA2004-14_1_c
+    MISRA2012-RULE-2_1_d (severity=2) Cloned From -> MISRA2004-14_1_d
+    MISRA2012-RULE-2_1_e (severity=2) Cloned From -> MISRA2004-14_1_e
+    MISRA2012-RULE-2_1_f (severity=2) Cloned From -> MISRA2004-14_1_f
+    MISRA2012-RULE-2_1_g (severity=2) Cloned From -> MISRA2004-14_1_g
+    MISRA2012-RULE-2_2_a (severity=2) Cloned From -> MISRA2004-14_2
+    MISRA2012-RULE-3_1_a (severity=2) Cloned From -> MISRA2004-2_3
+    MISRA2012-RULE-3_1_b (severity=2) Cloned From -> COMMENT-11
+    MISRA2012-RULE-3_1_c (severity=2) Cloned From -> COMMENT-12
+    MISRA2012-RULE-3_2 (severity=2) Cloned From -> COMMENT-13
+    MISRA2012-RULE-4_1 (severity=2) Cloned From -> CODSTA-117
+    MISRA2012-RULE-5_1 (severity=2) Cloned From -> CODSTA-178
+    MISRA2012-RULE-5_2_a_c90 (severity=2) Cloned From -> CODSTA-179_a_c90
+    MISRA2012-RULE-5_2_a_c99 (severity=2) Cloned From -> CODSTA-179_a_c99
+    MISRA2012-RULE-5_2_b_c90 (severity=2) Cloned From -> CODSTA-179_b_c90
+    MISRA2012-RULE-5_2_b_c99 (severity=2) Cloned From -> CODSTA-179_b_c99
+    MISRA2012-RULE-5_3_a (severity=2) Cloned From -> MISRA2004-5_2_a
+    MISRA2012-RULE-5_3_b (severity=2) Cloned From -> MISRA2004-5_2_b
+    MISRA2012-RULE-5_4_a_c90 (severity=2) Cloned From -> CODSTA-171_c90
+    MISRA2012-RULE-5_4_a_c99 (severity=2) Cloned From -> CODSTA-171_c99
+    MISRA2012-RULE-5_4_b_c90 (severity=2) Cloned From -> CODSTA-172_c90
+    MISRA2012-RULE-5_4_b_c99 (severity=2) Cloned From -> CODSTA-172_c99
+    MISRA2012-RULE-5_5_c90 (severity=2) Cloned From -> CODSTA-170_c90
+    MISRA2012-RULE-5_5_c99 (severity=2) Cloned From -> CODSTA-170_c99
+    MISRA2012-RULE-5_6_a (severity=2) Cloned From -> MISRA2004-5_3_a
+    MISRA2012-RULE-5_6_b (severity=2) Cloned From -> MISRA2004-5_3_b
+    MISRA2012-RULE-5_7_a (severity=2) Cloned From -> MISRA2004-5_4_a
+    MISRA2012-RULE-5_7_b (severity=2) Cloned From -> MISRA2004-5_4_b
+    MISRA2012-RULE-5_8 (severity=2) Cloned From -> CODSTA-180
+    MISRA2012-RULE-6_1 (severity=2) Cloned From -> MISRA2004-6_4
+    MISRA2012-RULE-6_2 (severity=2) Cloned From -> CODSTA-71
+    MISRA2012-RULE-7_1 (severity=2) Cloned From -> MISRA2004-7_1_a
+    MISRA2012-RULE-7_2 (severity=2) Cloned From -> MISRA2004-10_6
+    MISRA2012-RULE-7_3 (severity=2) Cloned From -> PORT-01
+    MISRA2012-RULE-7_4 (severity=2) Cloned From -> PB-27
+    MISRA2012-RULE-8_10 (severity=2) Cloned From -> CODSTA-120
+    MISRA2012-RULE-8_12 (severity=2) Cloned From -> PB-58
+    MISRA2012-RULE-8_14 (severity=2) Cloned From -> CODSTA-121
+    MISRA2012-RULE-8_1_a (severity=2) Cloned From -> MISRA2004-8_2_a
+    MISRA2012-RULE-8_1_b (severity=2) Cloned From -> MISRA2004-8_2_b
+    MISRA2012-RULE-8_2_a (severity=2) Cloned From -> MISRA2004-16_3
+    MISRA2012-RULE-8_2_b (severity=2) Cloned From -> CODSTA-158
+    MISRA2012-RULE-8_2_c (severity=2) Cloned From -> CODSTA-159
+    MISRA2012-RULE-8_3_a (severity=2) Cloned From -> MISRA2004-8_4
+    MISRA2012-RULE-8_3_b (severity=2) Cloned From -> MISRA2004-16_4
+    MISRA2012-RULE-8_4_a (severity=2) Cloned From -> CODSTA-118
+    MISRA2012-RULE-8_4_b (severity=2) Cloned From -> MISRA2004-8_4
+    MISRA2012-RULE-8_5 (severity=2) Cloned From -> CODSTA-154
+    MISRA2012-RULE-8_8 (severity=2) Cloned From -> MISRA2004-8_11
+    MISRA2012-RULE-9_2 (severity=2) Cloned From -> MISRA2004-9_2
+    MISRA2012-RULE-9_3 (severity=2) Cloned From -> MISRA2004-9_2_b
+    MISRA2012-RULE-9_4 (severity=2) Cloned From -> PB-69
+    MISRA2012-RULE-9_5 (severity=2) Cloned From -> CODSTA-186
+    MRM-23 (severity=2)
+    MRM-33 (severity=2)
+    MRM-39 (severity=2)
+    MRM-41 (severity=2)
+    MRM-42 (severity=2)
+    MRM-43 (severity=2)
+    NAMING-42 (severity=2)
+    OOP-07_a (severity=2)
+    OOP-07_b (severity=2)
+    OOP-10 (severity=2)
+    OOP-18 (severity=2)
+    OOP-19 (severity=2)
+    OOP-23 (severity=2)
+    OOP-28 (severity=2)
+    OOP-35 (severity=2)
+    OOP-39_b (severity=2)
+    OOP-41 (severity=2)
+    OPT-03 (severity=2)
+    OPT-26 (severity=2)
+    PB-09 (severity=2)
+    PB-24 (severity=2)
+    PB-25 (severity=2)
+    PB-26 (severity=2)
+    PB-27 (severity=2)
+    PB-28 (severity=2)
+    PB-29 (severity=2)
+    PB-54 (severity=2)
+    PB-55 (severity=2)
+    PB-68 (severity=2)
+    PORT-03 (severity=2)
+    PORT-04 (severity=2)
+    PORT-05 (severity=2)
+    PORT-11 (severity=2)
+    PORT-25 (severity=2)
+    PORT-26 (severity=2)
+    PREPROC-02 (severity=2)
+    PREPROC-05 (severity=2)
+    PREPROC-06 (severity=2)
+    PREPROC-09 (severity=2)
+    PREPROC-11 (severity=2)
+    SECURITY-01 (severity=2)
+    SECURITY-02 (severity=2)
+    SECURITY-04 (severity=2)
+    SECURITY-05 (severity=2)
+    SECURITY-08 (severity=2)
+    SECURITY-09 (severity=2)
+    SECURITY-10 (severity=2)
+    SECURITY-11 (severity=2)
+    SECURITY-12 (severity=2)
+    SECURITY-13 (severity=2)
+    SECURITY-14 (severity=2)
+    SECURITY-15 (severity=2)
+    SECURITY-17 (severity=2)
+    SECURITY-18 (severity=2)
+    SECURITY-19 (severity=2)
+    SECURITY-20 (severity=2)
+    SECURITY-21 (severity=2)
+    SECURITY-22 (severity=2)
+    SECURITY-23 (severity=2)
+    SECURITY-24 (severity=2)
+    SECURITY-25 (severity=2)
+    SECURITY-26 (severity=2)
+    SECURITY-27 (severity=2)
+    SECURITY-28 (severity=2)
+    SECURITY-29 (severity=2)
+    SECURITY-30 (severity=2)
+    SECURITY-31 (severity=2)
+    SECURITY-32 (severity=2)
+    SECURITY-33 (severity=2)
+    SECURITY-34 (severity=2)
+    SECURITY-35 (severity=2)
+    SECURITY-36 (severity=2)
+    SECURITY-37 (severity=2)
+    SECURITY-38 (severity=2)
+    CODSTA-01 (severity=3)
+    CODSTA-03 (severity=3)
+    CODSTA-05 (severity=3)
+    CODSTA-06 (severity=3)
+    CODSTA-07 (severity=3)
+    CODSTA-09 (severity=3)
+    CODSTA-10 (severity=3)
+    CODSTA-100 (severity=3)
+    CODSTA-101 (severity=3)
+    CODSTA-102 (severity=3)
+    CODSTA-103 (severity=3)
+    CODSTA-104 (severity=3)
+    CODSTA-107 (severity=3)
+    CODSTA-108 (severity=3)
+    CODSTA-110 (severity=3)
+    CODSTA-111 (severity=3)
+    CODSTA-112 (severity=3)
+    CODSTA-113 (severity=3)
+    CODSTA-114 (severity=3)
+    CODSTA-116 (severity=3)
+    CODSTA-117 (severity=3)
+    CODSTA-118 (severity=3)
+    CODSTA-119 (severity=3)
+    CODSTA-12 (severity=3)
+    CODSTA-120 (severity=3)
+    CODSTA-121 (severity=3)
+    CODSTA-122_a (severity=3)
+    CODSTA-122_b (severity=3)
+    CODSTA-124_a (severity=3)
+    CODSTA-124_b (severity=3)
+    CODSTA-125 (severity=3)
+    CODSTA-126 (severity=3)
+    CODSTA-129_a (severity=3)
+    CODSTA-129_b (severity=3)
+    CODSTA-13 (severity=3)
+    CODSTA-130 (severity=3)
+    CODSTA-131 (severity=3)
+    CODSTA-133_a (severity=3)
+    CODSTA-133_b (severity=3)
+    CODSTA-135 (severity=3)
+    CODSTA-136_a (severity=3)
+    CODSTA-136_b (severity=3)
+    CODSTA-137 (severity=3)
+    CODSTA-138 (severity=3)
+    CODSTA-14 (severity=3)
+    CODSTA-141_a (severity=3)
+    CODSTA-142_b (severity=3)
+    CODSTA-143 (severity=3)
+    CODSTA-144 (severity=3)
+    CODSTA-145 (severity=3)
+    CODSTA-146 (severity=3)
+    CODSTA-147 (severity=3)
+    CODSTA-148 (severity=3)
+    CODSTA-149 (severity=3)
+    CODSTA-150 (severity=3)
+    CODSTA-150_c (severity=3)
+    CODSTA-152 (severity=3)
+    CODSTA-154 (severity=3)
+    CODSTA-155 (severity=3)
+    CODSTA-156_a (severity=3)
+    CODSTA-156_b (severity=3)
+    CODSTA-157 (severity=3)
+    CODSTA-158 (severity=3)
+    CODSTA-159 (severity=3)
+    CODSTA-161_a (severity=3)
+    CODSTA-161_b (severity=3)
+    CODSTA-161_c (severity=3)
+    CODSTA-161_d (severity=3)
+    CODSTA-161_e (severity=3)
+    CODSTA-161_f (severity=3)
+    CODSTA-161_g (severity=3)
+    CODSTA-162 (severity=3)
+    CODSTA-163_a (severity=3)
+    CODSTA-163_b (severity=3)
+    CODSTA-164_a (severity=3)
+    CODSTA-164_b (severity=3)
+    CODSTA-165_b (severity=3)
+    CODSTA-167_a (severity=3)
+    CODSTA-167_b (severity=3)
+    CODSTA-168 (severity=3)
+    CODSTA-169_a (severity=3)
+    CODSTA-169_b (severity=3)
+    CODSTA-169_c (severity=3)
+    CODSTA-17 (severity=3)
+    CODSTA-170_c90 (severity=3)
+    CODSTA-170_c99 (severity=3)
+    CODSTA-171_c90 (severity=3)
+    CODSTA-171_c99 (severity=3)
+    CODSTA-172_c90 (severity=3)
+    CODSTA-172_c99 (severity=3)
+    CODSTA-174_a_c90 (severity=3)
+    CODSTA-174_a_c99 (severity=3)
+    CODSTA-174_b_c90 (severity=3)
+    CODSTA-174_b_c99 (severity=3)
+    CODSTA-178 (severity=3)
+    CODSTA-179_a_c90 (severity=3)
+    CODSTA-179_a_c99 (severity=3)
+    CODSTA-179_b_c90 (severity=3)
+    CODSTA-179_b_c99 (severity=3)
+    CODSTA-180 (severity=3)
+    CODSTA-183 (severity=3)
+    CODSTA-184 (severity=3)
+    CODSTA-185_b (severity=3)
+    CODSTA-186 (severity=3)
+    CODSTA-187_a (severity=3)
+    CODSTA-187_b (severity=3)
+    CODSTA-187_c (severity=3)
+    CODSTA-188 (severity=3)
+    CODSTA-189 (severity=3)
+    CODSTA-19 (severity=3)
+    CODSTA-190 (severity=3)
+    CODSTA-23 (severity=3)
+    CODSTA-26 (severity=3)
+    CODSTA-27 (severity=3)
+    CODSTA-29 (severity=3)
+    CODSTA-30 (severity=3)
+    CODSTA-31 (severity=3)
+    CODSTA-32 (severity=3)
+    CODSTA-33 (severity=3)
+    CODSTA-34 (severity=3)
+    CODSTA-35 (severity=3)
+    CODSTA-36 (severity=3)
+    CODSTA-37 (severity=3)
+    CODSTA-38 (severity=3)
+    CODSTA-40 (severity=3)
+    CODSTA-47 (severity=3)
+    CODSTA-48 (severity=3)
+    CODSTA-49 (severity=3)
+    CODSTA-50 (severity=3)
+    CODSTA-52 (severity=3)
+    CODSTA-53 (severity=3)
+    CODSTA-54 (severity=3)
+    CODSTA-56 (severity=3)
+    CODSTA-60 (severity=3)
+    CODSTA-61 (severity=3)
+    CODSTA-62 (severity=3)
+    CODSTA-63 (severity=3)
+    CODSTA-64 (severity=3)
+    CODSTA-65 (severity=3)
+    CODSTA-66 (severity=3)
+    CODSTA-67 (severity=3)
+    CODSTA-68 (severity=3)
+    CODSTA-69 (severity=3)
+    CODSTA-70 (severity=3)
+    CODSTA-71 (severity=3)
+    CODSTA-73 (severity=3)
+    CODSTA-74 (severity=3)
+    CODSTA-75 (severity=3)
+    CODSTA-76 (severity=3)
+    CODSTA-77 (severity=3)
+    CODSTA-78 (severity=3)
+    CODSTA-79 (severity=3)
+    CODSTA-80 (severity=3)
+    CODSTA-81 (severity=3)
+    CODSTA-82 (severity=3)
+    CODSTA-83 (severity=3)
+    CODSTA-85 (severity=3)
+    CODSTA-86 (severity=3)
+    CODSTA-87 (severity=3)
+    CODSTA-88 (severity=3)
+    CODSTA-89 (severity=3)
+    CODSTA-90 (severity=3)
+    CODSTA-91 (severity=3)
+    CODSTA-92 (severity=3)
+    CODSTA-92_a (severity=3)
+    CODSTA-92_b (severity=3)
+    CODSTA-94 (severity=3)
+    CODSTA-95 (severity=3)
+    CODSTA-96 (severity=3)
+    CODSTA-97 (severity=3)
+    CODSTA-98 (severity=3)
+    CODSTA-99 (severity=3)
+    CODSTA-CPP-02 (severity=3)
+    CODSTA-CPP-03 (severity=3)
+    CODSTA-CPP-07 (severity=3)
+    CODSTA-CPP-08 (severity=3)
+    CODSTA-CPP-09 (severity=3)
+    CODSTA-CPP-10 (severity=3)
+    CODSTA-CPP-11 (severity=3)
+    CODSTA-CPP-12 (severity=3)
+    CODSTA-CPP-13 (severity=3)
+    CODSTA-CPP-14 (severity=3)
+    CODSTA-CPP-15 (severity=3)
+    CODSTA-CPP-16 (severity=3)
+    CODSTA-CPP-17 (severity=3)
+    CODSTA-CPP-20 (severity=3)
+    CODSTA-CPP-24 (severity=3)
+    CODSTA-CPP-25 (severity=3)
+    CODSTA-CPP-26 (severity=3)
+    CODSTA-CPP-27 (severity=3)
+    CODSTA-CPP-28 (severity=3)
+    CODSTA-CPP-29 (severity=3)
+    CODSTA-CPP-30 (severity=3)
+    CODSTA-CPP-32 (severity=3)
+    CODSTA-CPP-33 (severity=3)
+    CODSTA-CPP-34 (severity=3)
+    CODSTA-CPP-35 (severity=3)
+    CODSTA-CPP-36 (severity=3)
+    CODSTA-CPP-37 (severity=3)
+    CODSTA-CPP-38 (severity=3)
+    CODSTA-CPP-39 (severity=3)
+    CODSTA-CPP-41 (severity=3)
+    CODSTA-CPP-42 (severity=3)
+    CODSTA-CPP-43 (severity=3)
+    CODSTA-CPP-44 (severity=3)
+    CODSTA-CPP-45 (severity=3)
+    CODSTA-CPP-46 (severity=3)
+    CODSTA-CPP-47 (severity=3)
+    CODSTA-CPP-48 (severity=3)
+    CODSTA-CPP-49 (severity=3)
+    CODSTA-CPP-50 (severity=3)
+    CODSTA-CPP-51 (severity=3)
+    CODSTA-CPP-52 (severity=3)
+    CODSTA-CPP-53 (severity=3)
+    CODSTA-CPP-54 (severity=3)
+    CODSTA-CPP-56 (severity=3)
+    CODSTA-CPP-57 (severity=3)
+    CODSTA-CPP-58 (severity=3)
+    CODSTA-CPP-59 (severity=3)
+    CODSTA-CPP-60 (severity=3)
+    CODSTA-CPP-62 (severity=3)
+    CODSTA-CPP-63 (severity=3)
+    CODSTA-CPP-64 (severity=3)
+    CODSTA-CPP-66 (severity=3)
+    CODSTA-CPP-67 (severity=3)
+    CODSTA-CPP-68 (severity=3)
+    CODSTA-CPP-69 (severity=3)
+    CODSTA-CPP-70 (severity=3)
+    CODSTA-CPP-71 (severity=3)
+    CODSTA-CPP-72 (severity=3)
+    CODSTA-CPP-73 (severity=3)
+    CODSTA-CPP-74 (severity=3)
+    CODSTA-CPP-75 (severity=3)
+    CODSTA-CPP-76 (severity=3)
+    CODSTA-CPP-77 (severity=3)
+    CODSTA-CPP-78 (severity=3)
+    CODSTA-CPP-79 (severity=3)
+    CODSTA-CPP-80 (severity=3)
+    CODSTA-CPP-82 (severity=3)
+    CODSTA-CPP-83 (severity=3)
+    CODSTA-CPP-84 (severity=3)
+    CODSTA-CPP-85 (severity=3)
+    CODSTA-CPP-86 (severity=3)
+    CODSTA-CPP-87_a (severity=3)
+    CODSTA-CPP-87_b (severity=3)
+    CODSTA-CPP-87_c (severity=3)
+    CODSTA-CPP-88 (severity=3)
+    CODSTA-MCPP-01 (severity=3)
+    CODSTA-MCPP-02 (severity=3)
+    CODSTA-MCPP-03 (severity=3)
+    CODSTA-MCPP-05 (severity=3)
+    CODSTA-MCPP-06_a (severity=3)
+    CODSTA-MCPP-06_b (severity=3)
+    CODSTA-MCPP-09 (severity=3)
+    CODSTA-MCPP-10_a (severity=3)
+    CODSTA-MCPP-10_b (severity=3)
+    CODSTA-MCPP-13 (severity=3)
+    CODSTA-MCPP-14 (severity=3)
+    CODSTA-MCPP-15_a (severity=3)
+    CODSTA-MCPP-15_b (severity=3)
+    CODSTA-MCPP-16_c (severity=3)
+    CODSTA-MCPP-16_d (severity=3)
+    CODSTA-MCPP-17 (severity=3)
+    CODSTA-MCPP-18_a (severity=3)
+    CODSTA-MCPP-18_b (severity=3)
+    COMMENT-01 (severity=3)
+    COMMENT-02 (severity=3)
+    COMMENT-03 (severity=3)
+    COMMENT-04 (severity=3)
+    COMMENT-05 (severity=3)
+    COMMENT-06 (severity=3)
+    COMMENT-07 (severity=3)
+    COMMENT-08 (severity=3)
+    COMMENT-09 (severity=3)
+    COMMENT-10 (severity=3)
+    COMMENT-11 (severity=3)
+    COMMENT-12 (severity=3)
+    EXCEPT-06 (severity=3)
+    EXCEPT-07 (severity=3)
+    EXCEPT-08 (severity=3)
+    EXCEPT-09 (severity=3)
+    EXCEPT-10 (severity=3)
+    EXCEPT-12 (severity=3)
+    EXCEPT-13 (severity=3)
+    EXCEPT-14 (severity=3)
+    EXCEPT-15 (severity=3)
+    EXCEPT-16 (severity=3)
+    EXCEPT-17 (severity=3)
+    EXCEPT-18 (severity=3)
+    FORMAT-02 (severity=3)
+    FORMAT-03 (severity=3)
+    FORMAT-04 (severity=3)
+    FORMAT-05 (severity=3)
+    FORMAT-06 (severity=3)
+    FORMAT-07 (severity=3)
+    FORMAT-08 (severity=3)
+    FORMAT-09 (severity=3)
+    FORMAT-10 (severity=3)
+    FORMAT-11 (severity=3)
+    FORMAT-12 (severity=3)
+    FORMAT-13 (severity=3)
+    FORMAT-14 (severity=3)
+    FORMAT-15 (severity=3)
+    FORMAT-16 (severity=3)
+    FORMAT-17 (severity=3)
+    FORMAT-18 (severity=3)
+    FORMAT-19 (severity=3)
+    FORMAT-20 (severity=3)
+    FORMAT-21 (severity=3)
+    FORMAT-22 (severity=3)
+    FORMAT-23 (severity=3)
+    FORMAT-24 (severity=3)
+    FORMAT-25 (severity=3)
+    FORMAT-25_b (severity=3)
+    FORMAT-26 (severity=3)
+    FORMAT-27 (severity=3)
+    FORMAT-28 (severity=3)
+    FORMAT-29 (severity=3)
+    FORMAT-30 (severity=3)
+    FORMAT-31 (severity=3)
+    FORMAT-33 (severity=3)
+    FORMAT-34 (severity=3)
+    FORMAT-35 (severity=3)
+    FORMAT-36 (severity=3)
+    FORMAT-37 (severity=3)
+    FORMAT-38 (severity=3)
+    FORMAT-42 (severity=3)
+    FORMAT-43 (severity=3)
+    FORMAT-44 (severity=3)
+    FORMAT-45 (severity=3)
+    FORMAT-46 (severity=3)
+    INIT-01 (severity=3)
+    INIT-02 (severity=3)
+    INIT-03 (severity=3)
+    INIT-07 (severity=3)
+    INIT-08 (severity=3)
+    INIT-10 (severity=3)
+    INIT-12 (severity=3)
+    INIT-13 (severity=3)
+    INIT-13_c (severity=3)
+    JSF-001 (severity=3) Cloned From -> METRICS-25
+    JSF-009 (severity=3) Cloned From -> MISRA-005
+    JSF-010 (severity=3) Cloned From -> MISRA-006
+    JSF-011 (severity=3) Cloned From -> MISRA2004-4_2
+    JSF-012 (severity=3) Cloned From -> CODSTA-48
+    JSF-013 (severity=3) Cloned From -> MISRA-008
+    JSF-027 (severity=3) Cloned From -> PFO-02
+    JSF-028 (severity=3) Cloned From -> PREPROC-10
+    JSF-031 (severity=3) Cloned From -> PREPROC-01
+    JSF-032 (severity=3) Cloned From -> PREPROC-08
+    JSF-035 (severity=3) Cloned From -> PFO-02
+    JSF-039_a (severity=3) Cloned From -> PFO-01
+    JSF-041 (severity=3) Cloned From -> METRICS-26
+    JSF-042 (severity=3) Cloned From -> FORMAT-06
+    JSF-044 (severity=3) Cloned From -> FORMAT-36
+    JSF-047 (severity=3) Cloned From -> NAMING-33
+    JSF-048 (severity=3) Cloned From -> NAMING-45
+    JSF-050 (severity=3) Cloned From -> NAMING-09
+    JSF-051_a (severity=3) Cloned From -> NAMING-05
+    JSF-051_b (severity=3) Cloned From -> NAMING-06
+    JSF-051_c (severity=3) Cloned From -> NAMING-07
+    JSF-051_d (severity=3) Cloned From -> NAMING-34
+    JSF-051_e (severity=3) Cloned From -> NAMING-35
+    JSF-053 (severity=3) Cloned From -> NAMING-41
+    JSF-054 (severity=3) Cloned From -> NAMING-49
+    JSF-057_a (severity=3) Cloned From -> CODSTA-CPP-46
+    JSF-057_b (severity=3) Cloned From -> CODSTA-CPP-47
+    JSF-058 (severity=3) Cloned From -> FORMAT-38
+    JSF-060_a (severity=3) Cloned From -> FORMAT-42
+    JSF-060_b (severity=3) Cloned From -> FORMAT-43
+    JSF-060_c (severity=3) Cloned From -> FORMAT-44
+    JSF-061 (severity=3) Cloned From -> FORMAT-42
+    JSF-062 (severity=3) Cloned From -> FORMAT-32
+    JSF-063_a (severity=3) Cloned From -> FORMAT-17
+    JSF-063_b (severity=3) Cloned From -> FORMAT-18
+    JSF-063_c (severity=3) Cloned From -> FORMAT-21
+    JSF-063_d (severity=3) Cloned From -> FORMAT-22
+    JSF-063_e (severity=3) Cloned From -> FORMAT-45
+    JSF-063_f (severity=3) Cloned From -> FORMAT-46
+    JSF-069 (severity=3) Cloned From -> CODSTA-CPP-54
+    JSF-074 (severity=3) Cloned From -> INIT-14
+    JSF-085 (severity=3) Cloned From -> CODSTA-CPP-16
+    JSF-085_a (severity=3) Cloned From -> CODSTA-CPP-86
+    JSF-099 (severity=3) Cloned From -> CODSTA-CPP-57
+    JSF-104 (severity=3) Cloned From -> TEMPL-10
+    JSF-110 (severity=3) Cloned From -> METRICS-27
+    JSF-113 (severity=3) Cloned From -> MISRA2004-14_7
+    JSF-115 (severity=3) Cloned From -> MISRA2004-16_10
+    JSF-132_a (severity=3) Cloned From -> COMMENT-05
+    JSF-132_b (severity=3) Cloned From -> COMMENT-06
+    JSF-132_c (severity=3) Cloned From -> COMMENT-07
+    JSF-132_d (severity=3) Cloned From -> COMMENT-08
+    JSF-133_a (severity=3) Cloned From -> COMMENT-03
+    JSF-133_b (severity=3) Cloned From -> COMMENT-02
+    JSF-139 (severity=3) Cloned From -> MISRA-027
+    JSF-139_b (severity=3) Cloned From -> MISRA-027_b
+    JSF-141 (severity=3) Cloned From -> CODSTA-CPP-56
+    JSF-143 (severity=3) Cloned From -> OPT-26
+    JSF-143_a (severity=3) Cloned From -> OPT-02
+    JSF-150 (severity=3) Cloned From -> CODSTA-50
+    JSF-151 (severity=3) Cloned From -> CODSTA-26
+    JSF-166 (severity=3) Cloned From -> MISRA2004-12_3
+    JSF-166_b (severity=3) Cloned From -> MISRA2004-12_3_b
+    JSF-166_c (severity=3) Cloned From -> MISRA2004-12_3_c
+    JSF-167 (severity=3) Cloned From -> MISRA-041
+    JSF-176 (severity=3) Cloned From -> CODSTA-34
+    JSF-181_a (severity=3) Cloned From -> OPT-29
+    JSF-181_b (severity=3) Cloned From -> OOP-20
+    JSF-188 (severity=3) Cloned From -> MISRA-055
+    JSF-192 (severity=3) Cloned From -> CODSTA-98
+    JSF-195 (severity=3) Cloned From -> MISRA2004-15_4
+    JSF-196 (severity=3) Cloned From -> CODSTA-54
+    JSF-198 (severity=3) Cloned From -> CODSTA-52
+    JSF-199 (severity=3) Cloned From -> CODSTA-53
+    JSF-200 (severity=3) Cloned From -> CODSTA-49
+    JSF-207 (severity=3) Cloned From -> CODSTA-CPP-82
+    METRICS-03 (severity=3)
+    METRICS-04 (severity=3)
+    METRICS-05 (severity=3)
+    METRICS-06 (severity=3)
+    METRICS-07 (severity=3)
+    METRICS-08 (severity=3)
+    METRICS-09 (severity=3)
+    METRICS-10 (severity=3)
+    METRICS-11 (severity=3)
+    METRICS-12 (severity=3)
+    METRICS-13 (severity=3)
+    METRICS-14 (severity=3)
+    METRICS-15 (severity=3)
+    METRICS-16 (severity=3)
+    METRICS-18 (severity=3)
+    METRICS-19 (severity=3)
+    METRICS-20 (severity=3)
+    METRICS-21 (severity=3)
+    METRICS-22 (severity=3)
+    METRICS-23 (severity=3)
+    METRICS-25 (severity=3)
+    METRICS-26 (severity=3)
+    METRICS-27 (severity=3)
+    METRICS-28 (severity=3)
+    METRICS-30 (severity=3)
+    METRICS-31 (severity=3)
+    METRICS-32 (severity=3)
+    METRICS-36 (severity=3)
+    METRICS-37 (severity=3)
+    METRICS-38 (severity=3)
+    METRICS-39 (severity=3)
+    METRICS-40 (severity=3)
+    METRICS-41 (severity=3)
+    METRICS-43 (severity=3)
+    MISRA-005 (severity=3)
+    MISRA-006 (severity=3)
+    MISRA-008 (severity=3)
+    MISRA-013 (severity=3)
+    MISRA-014 (severity=3)
+    MISRA-016 (severity=3)
+    MISRA-020 (severity=3)
+    MISRA-024 (severity=3)
+    MISRA-027 (severity=3)
+    MISRA-027_b (severity=3)
+    MISRA-029 (severity=3)
+    MISRA-030 (severity=3)
+    MISRA-038 (severity=3)
+    MISRA-042 (severity=3)
+    MISRA-043 (severity=3)
+    MISRA-043_b (severity=3)
+    MISRA-043_c (severity=3)
+    MISRA-043_d (severity=3)
+    MISRA-044 (severity=3) Cloned From -> OPT-29
+    MISRA-046_a (severity=3)
+    MISRA-046_b (severity=3)
+    MISRA-048_a (severity=3)
+    MISRA-048_b (severity=3)
+    MISRA-048_c (severity=3) Cloned From -> PB-65
+    MISRA-048_d (severity=3) Cloned From -> PB-15_b
+    MISRA-054 (severity=3)
+    MISRA-058 (severity=3)
+    MISRA-065 (severity=3)
+    MISRA-069 (severity=3)
+    MISRA-071_a (severity=3)
+    MISRA-071_b (severity=3)
+    MISRA-073 (severity=3)
+    MISRA-083 (severity=3)
+    MISRA-084 (severity=3)
+    MISRA-089 (severity=3)
+    MISRA-096 (severity=3)
+    MISRA-100 (severity=3)
+    MISRA-101 (severity=3)
+    MISRA-104 (severity=3)
+    MISRA-105 (severity=3)
+    MISRA-107_a (severity=3)
+    MISRA-107_b (severity=3)
+    MISRA-108 (severity=3)
+    MISRA-110 (severity=3)
+    MISRA-113 (severity=3)
+    MISRA-115 (severity=3)
+    MISRA-121_a (severity=3)
+    MISRA-121_b (severity=3)
+    MISRA2004-10_1_a (severity=3)
+    MISRA2004-10_1_b (severity=3)
+    MISRA2004-10_1_c (severity=3)
+    MISRA2004-10_1_d (severity=3)
+    MISRA2004-10_1_e (severity=3)
+    MISRA2004-10_1_f (severity=3)
+    MISRA2004-10_1_g (severity=3)
+    MISRA2004-10_1_h (severity=3)
+    MISRA2004-10_1_i (severity=3)
+    MISRA2004-10_2_a (severity=3)
+    MISRA2004-10_2_b (severity=3)
+    MISRA2004-10_2_c (severity=3)
+    MISRA2004-10_2_d (severity=3)
+    MISRA2004-10_3 (severity=3)
+    MISRA2004-10_4 (severity=3)
+    MISRA2004-10_5 (severity=3)
+    MISRA2004-11_1 (severity=3)
+    MISRA2004-11_2 (severity=3)
+    MISRA2004-11_2_b (severity=3)
+    MISRA2004-11_2_c (severity=3)
+    MISRA2004-11_3_a (severity=3)
+    MISRA2004-11_3_b (severity=3)
+    MISRA2004-11_4 (severity=3)
+    MISRA2004-11_5 (severity=3)
+    MISRA2004-12_10 (severity=3)
+    MISRA2004-12_12 (severity=3)
+    MISRA2004-12_13 (severity=3)
+    MISRA2004-12_1_a (severity=3)
+    MISRA2004-12_1_d (severity=3)
+    MISRA2004-12_1_e (severity=3)
+    MISRA2004-12_2_a (severity=3)
+    MISRA2004-12_2_c (severity=3)
+    MISRA2004-12_2_d (severity=3)
+    MISRA2004-12_2_e (severity=3)
+    MISRA2004-12_2_f (severity=3)
+    MISRA2004-12_2_g (severity=3)
+    MISRA2004-12_3 (severity=3)
+    MISRA2004-12_3_b (severity=3)
+    MISRA2004-12_3_c (severity=3)
+    MISRA2004-12_4_a (severity=3)
+    MISRA2004-12_5 (severity=3)
+    MISRA2004-12_6_a (severity=3)
+    MISRA2004-12_6_b (severity=3)
+    MISRA2004-12_7 (severity=3)
+    MISRA2004-12_8 (severity=3)
+    MISRA2004-12_9 (severity=3)
+    MISRA2004-13_1 (severity=3)
+    MISRA2004-13_2 (severity=3)
+    MISRA2004-13_3 (severity=3)
+    MISRA2004-13_4 (severity=3)
+    MISRA2004-13_5 (severity=3)
+    MISRA2004-13_6 (severity=3)
+    MISRA2004-13_7_a (severity=3)
+    MISRA2004-13_7_aa (severity=3)
+    MISRA2004-13_7_ab (severity=3)
+    MISRA2004-13_7_ac (severity=3)
+    MISRA2004-13_7_ad (severity=3)
+    MISRA2004-13_7_ae (severity=3)
+    MISRA2004-13_7_af (severity=3)
+    MISRA2004-13_7_ag (severity=3)
+    MISRA2004-13_7_ah (severity=3)
+    MISRA2004-13_7_ai (severity=3)
+    MISRA2004-13_7_aj (severity=3)
+    MISRA2004-13_7_ak (severity=3)
+    MISRA2004-13_7_b (severity=3)
+    MISRA2004-13_7_c (severity=3)
+    MISRA2004-13_7_d (severity=3)
+    MISRA2004-13_7_j (severity=3)
+    MISRA2004-13_7_k (severity=3)
+    MISRA2004-13_7_l (severity=3)
+    MISRA2004-13_7_m (severity=3)
+    MISRA2004-13_7_n (severity=3)
+    MISRA2004-13_7_s (severity=3)
+    MISRA2004-13_7_t (severity=3)
+    MISRA2004-13_7_u (severity=3)
+    MISRA2004-13_7_v (severity=3)
+    MISRA2004-13_7_w (severity=3)
+    MISRA2004-13_7_x (severity=3)
+    MISRA2004-13_7_y (severity=3)
+    MISRA2004-13_7_z (severity=3)
+    MISRA2004-14_10 (severity=3)
+    MISRA2004-14_1_a (severity=3)
+    MISRA2004-14_1_b (severity=3)
+    MISRA2004-14_1_c (severity=3)
+    MISRA2004-14_1_d (severity=3)
+    MISRA2004-14_1_e (severity=3)
+    MISRA2004-14_1_f (severity=3)
+    MISRA2004-14_1_g (severity=3)
+    MISRA2004-14_2 (severity=3)
+    MISRA2004-14_3 (severity=3)
+    MISRA2004-14_4 (severity=3)
+    MISRA2004-14_5 (severity=3)
+    MISRA2004-14_6 (severity=3)
+    MISRA2004-14_7 (severity=3)
+    MISRA2004-14_8 (severity=3)
+    MISRA2004-14_9 (severity=3)
+    MISRA2004-15_0_a (severity=3)
+    MISRA2004-15_0_b (severity=3)
+    MISRA2004-15_1 (severity=3)
+    MISRA2004-15_2 (severity=3)
+    MISRA2004-15_2_b (severity=3)
+    MISRA2004-15_3 (severity=3)
+    MISRA2004-15_4 (severity=3)
+    MISRA2004-15_4_b (severity=3)
+    MISRA2004-15_5 (severity=3)
+    MISRA2004-16_1 (severity=3)
+    MISRA2004-16_10 (severity=3)
+    MISRA2004-16_2 (severity=3)
+    MISRA2004-16_3 (severity=3)
+    MISRA2004-16_4 (severity=3)
+    MISRA2004-16_5 (severity=3)
+    MISRA2004-16_6 (severity=3)
+    MISRA2004-16_7 (severity=3)
+    MISRA2004-16_7_b (severity=3)
+    MISRA2004-16_8 (severity=3)
+    MISRA2004-16_9 (severity=3)
+    MISRA2004-17_1 (severity=3)
+    MISRA2004-17_2 (severity=3)
+    MISRA2004-17_3 (severity=3)
+    MISRA2004-17_4 (severity=3)
+    MISRA2004-17_5 (severity=3)
+    MISRA2004-17_6_a (severity=3)
+    MISRA2004-17_6_b (severity=3)
+    MISRA2004-18_1 (severity=3)
+    MISRA2004-18_2 (severity=3)
+    MISRA2004-18_2_b (severity=3)
+    MISRA2004-18_4 (severity=3)
+    MISRA2004-19_1 (severity=3)
+    MISRA2004-19_10 (severity=3)
+    MISRA2004-19_11 (severity=3)
+    MISRA2004-19_11_b (severity=3)
+    MISRA2004-19_12 (severity=3)
+    MISRA2004-19_13 (severity=3)
+    MISRA2004-19_14 (severity=3)
+    MISRA2004-19_15 (severity=3)
+    MISRA2004-19_16 (severity=3)
+    MISRA2004-19_17 (severity=3)
+    MISRA2004-19_2 (severity=3)
+    MISRA2004-19_3 (severity=3) Cloned From -> MISRA-089
+    MISRA2004-19_4 (severity=3)
+    MISRA2004-19_5 (severity=3)
+    MISRA2004-19_6 (severity=3)
+    MISRA2004-19_7 (severity=3)
+    MISRA2004-19_8 (severity=3)
+    MISRA2004-19_9 (severity=3)
+    MISRA2004-20_10 (severity=3)
+    MISRA2004-20_11 (severity=3)
+    MISRA2004-20_12 (severity=3)
+    MISRA2004-20_1_a (severity=3)
+    MISRA2004-20_1_b (severity=3)
+    MISRA2004-20_1_c (severity=3) Cloned From -> CODSTA-92_a
+    MISRA2004-20_1_e (severity=3)
+    MISRA2004-20_2 (severity=3)
+    MISRA2004-20_2_a (severity=3)
+    MISRA2004-20_2_b (severity=3)
+    MISRA2004-20_3 (severity=3)
+    MISRA2004-20_4 (severity=3)
+    MISRA2004-20_5 (severity=3)
+    MISRA2004-20_6 (severity=3)
+    MISRA2004-20_7 (severity=3)
+    MISRA2004-20_7_b (severity=3)
+    MISRA2004-20_8 (severity=3)
+    MISRA2004-20_8_b (severity=3)
+    MISRA2004-20_9 (severity=3)
+    MISRA2004-2_1 (severity=3)
+    MISRA2004-2_2 (severity=3)
+    MISRA2004-2_3 (severity=3)
+    MISRA2004-3_4 (severity=3)
+    MISRA2004-3_5 (severity=3)
+    MISRA2004-4_1 (severity=3)
+    MISRA2004-4_2 (severity=3)
+    MISRA2004-5_1 (severity=3)
+    MISRA2004-5_2_a (severity=3)
+    MISRA2004-5_2_b (severity=3)
+    MISRA2004-5_3_a (severity=3)
+    MISRA2004-5_3_b (severity=3)
+    MISRA2004-5_4_a (severity=3)
+    MISRA2004-5_4_b (severity=3)
+    MISRA2004-5_4_c (severity=3)
+    MISRA2004-6_1 (severity=3)
+    MISRA2004-6_2 (severity=3)
+    MISRA2004-6_3 (severity=3)
+    MISRA2004-6_3_b (severity=3)
+    MISRA2004-6_4 (severity=3)
+    MISRA2004-6_5 (severity=3) Cloned From -> CODSTA-71
+    MISRA2004-6_5_a (severity=3)
+    MISRA2004-7_1_a (severity=3)
+    MISRA2004-7_1_b (severity=3)
+    MISRA2004-8_11 (severity=3)
+    MISRA2004-8_12 (severity=3)
+    MISRA2004-8_1_a (severity=3) Cloned From -> MISRA-071_a
+    MISRA2004-8_1_b (severity=3) Cloned From -> MISRA-071_b
+    MISRA2004-8_2_a (severity=3)
+    MISRA2004-8_2_b (severity=3)
+    MISRA2004-8_3_a (severity=3)
+    MISRA2004-8_3_b (severity=3)
+    MISRA2004-8_4 (severity=3)
+    MISRA2004-8_5 (severity=3)
+    MISRA2004-8_6 (severity=3)
+    MISRA2004-8_7 (severity=3)
+    MISRA2004-9_1 (severity=3) Cloned From -> MISRA-030
+    MISRA2004-9_2 (severity=3)
+    MISRA2004-9_2_b (severity=3)
+    MISRA2004-9_2_c (severity=3)
+    MISRA2004-9_3 (severity=3)
+    MISRA2008-0_1_10 (severity=3) Cloned From -> OPT-30
+    MISRA2008-0_1_11 (severity=3) Cloned From -> OPT-31
+    MISRA2008-0_1_1_a (severity=3) Cloned From -> MISRA2004-14_1_a
+    MISRA2008-0_1_1_b (severity=3) Cloned From -> MISRA2004-14_1_b
+    MISRA2008-0_1_1_c (severity=3) Cloned From -> MISRA2004-14_1_c
+    MISRA2008-0_1_1_d (severity=3) Cloned From -> MISRA2004-14_1_d
+    MISRA2008-0_1_1_e (severity=3) Cloned From -> MISRA2004-14_1_e
+    MISRA2008-0_1_1_f (severity=3) Cloned From -> MISRA2004-14_1_f
+    MISRA2008-0_1_1_g (severity=3) Cloned From -> MISRA2004-14_1_g
+    MISRA2008-0_1_2_a (severity=3) Cloned From -> MISRA2004-13_7_a
+    MISRA2008-0_1_2_b (severity=3) Cloned From -> MISRA2004-13_7_aa
+    MISRA2008-0_1_2_c (severity=3) Cloned From -> MISRA2004-13_7_ab
+    MISRA2008-0_1_2_d (severity=3) Cloned From -> MISRA2004-13_7_ac
+    MISRA2008-0_1_2_e (severity=3) Cloned From -> MISRA2004-13_7_ad
+    MISRA2008-0_1_2_f (severity=3) Cloned From -> MISRA2004-13_7_ae
+    MISRA2008-0_1_2_g (severity=3) Cloned From -> MISRA2004-13_7_af
+    MISRA2008-0_1_2_h (severity=3) Cloned From -> MISRA2004-13_7_ag
+    MISRA2008-0_1_2_i (severity=3) Cloned From -> MISRA2004-13_7_ah
+    MISRA2008-0_1_2_j (severity=3) Cloned From -> MISRA2004-13_7_ai
+    MISRA2008-0_1_2_k (severity=3) Cloned From -> MISRA2004-13_7_aj
+    MISRA2008-0_1_2_l (severity=3) Cloned From -> MISRA2004-13_7_ak
+    MISRA2008-0_1_2_m (severity=3) Cloned From -> MISRA2004-13_7_b
+    MISRA2008-0_1_2_n (severity=3) Cloned From -> MISRA2004-13_7_c
+    MISRA2008-0_1_2_o (severity=3) Cloned From -> MISRA2004-13_7_d
+    MISRA2008-0_1_2_p (severity=3) Cloned From -> MISRA2004-13_7_j
+    MISRA2008-0_1_2_q (severity=3) Cloned From -> MISRA2004-13_7_k
+    MISRA2008-0_1_2_r (severity=3) Cloned From -> MISRA2004-13_7_l
+    MISRA2008-0_1_2_rz (severity=3) Cloned From -> MISRA2004-13_7_z
+    MISRA2008-0_1_2_s (severity=3) Cloned From -> MISRA2004-13_7_m
+    MISRA2008-0_1_2_sz (severity=3) Cloned From -> MISRA2004-13_7_v
+    MISRA2008-0_1_2_t (severity=3) Cloned From -> MISRA2004-13_7_n
+    MISRA2008-0_1_2_u (severity=3) Cloned From -> MISRA2004-13_7_s
+    MISRA2008-0_1_2_v (severity=3) Cloned From -> MISRA2004-13_7_t
+    MISRA2008-0_1_2_w (severity=3) Cloned From -> MISRA2004-13_7_u
+    MISRA2008-0_1_2_x (severity=3) Cloned From -> MISRA2004-13_7_w
+    MISRA2008-0_1_2_y (severity=3) Cloned From -> MISRA2004-13_7_x
+    MISRA2008-0_1_2_z (severity=3) Cloned From -> MISRA2004-13_7_y
+    MISRA2008-0_1_3_a (severity=3) Cloned From -> OPT-02
+    MISRA2008-0_1_3_b (severity=3) Cloned From -> OPT-06
+    MISRA2008-0_1_7 (severity=3) Cloned From -> CODSTA-CPP-58
+    MISRA2008-0_1_8 (severity=3) Cloned From -> OPT-32
+    MISRA2008-0_1_8_b (severity=3) Cloned From -> OPT-32_b
+    MISRA2008-0_2_1_a (severity=3) Cloned From -> MISRA2004-18_2_b
+    MISRA2008-0_2_1_b (severity=3) Cloned From -> PB-42
+    MISRA2008-0_3_2 (severity=3) Cloned From -> MISRA2004-16_10
+    MISRA2008-0_4_2 (severity=3) Cloned From -> COMMENT-10
+    MISRA2008-10_1_3 (severity=3) Cloned From -> OOP-41
+    MISRA2008-10_3_1 (severity=3) Cloned From -> OOP-44
+    MISRA2008-10_3_2 (severity=3) Cloned From -> OOP-21
+    MISRA2008-10_3_3 (severity=3) Cloned From -> OOP-43
+    MISRA2008-11_0_1 (severity=3) Cloned From -> OOP-48
+    MISRA2008-12_1_1 (severity=3) Cloned From -> PB-36
+    MISRA2008-12_1_3 (severity=3) Cloned From -> OOP-45
+    MISRA2008-12_8_1 (severity=3) Cloned From -> OOP-46
+    MISRA2008-12_8_2 (severity=3) Cloned From -> OOP-42
+    MISRA2008-14_5_2 (severity=3) Cloned From -> TEMPL-07
+    MISRA2008-14_5_3 (severity=3) Cloned From -> TEMPL-11
+    MISRA2008-14_6_1 (severity=3) Cloned From -> TEMPL-12
+    MISRA2008-14_7_3 (severity=3) Cloned From -> TEMPL-10
+    MISRA2008-14_8_1 (severity=3) Cloned From -> TEMPL-09
+    MISRA2008-15_0_3 (severity=3) Cloned From -> EXCEPT-10
+    MISRA2008-15_1_1 (severity=3) Cloned From -> EXCEPT-11
+    MISRA2008-15_1_2 (severity=3) Cloned From -> EXCEPT-12
+    MISRA2008-15_1_3 (severity=3) Cloned From -> EXCEPT-07
+    MISRA2008-15_3_1 (severity=3) Cloned From -> EXCEPT-08
+    MISRA2008-15_3_3 (severity=3) Cloned From -> EXCEPT-16
+    MISRA2008-15_3_4_a (severity=3) Cloned From -> EXCEPT-13
+    MISRA2008-15_3_4_b (severity=3) Cloned From -> EXCEPT-18
+    MISRA2008-15_3_5 (severity=3) Cloned From -> EXCEPT-15
+    MISRA2008-15_3_6 (severity=3) Cloned From -> EXCEPT-17
+    MISRA2008-15_5_1 (severity=3) Cloned From -> EXCEPT-03
+    MISRA2008-15_5_2 (severity=3) Cloned From -> EXCEPT-14
+    MISRA2008-15_5_3 (severity=3) Cloned From -> PB-44
+    MISRA2008-16_0_1 (severity=3) Cloned From -> MISRA2004-19_1
+    MISRA2008-16_0_2 (severity=3) Cloned From -> MISRA2004-19_5
+    MISRA2008-16_0_3 (severity=3) Cloned From -> MISRA2004-19_6
+    MISRA2008-16_0_4 (severity=3) Cloned From -> MISRA2004-19_7
+    MISRA2008-16_0_5 (severity=3) Cloned From -> MISRA2004-19_9
+    MISRA2008-16_0_6 (severity=3) Cloned From -> MISRA2004-19_10
+    MISRA2008-16_0_7 (severity=3) Cloned From -> MISRA2004-19_11
+    MISRA2008-16_0_7_b (severity=3) Cloned From -> MISRA2004-19_11_b
+    MISRA2008-16_0_8 (severity=3) Cloned From -> MISRA2004-19_16
+    MISRA2008-16_1_1 (severity=3) Cloned From -> MISRA2004-19_14
+    MISRA2008-16_1_2 (severity=3) Cloned From -> MISRA2004-19_17
+    MISRA2008-16_2_1_a (severity=3) Cloned From -> PREPROC-01
+    MISRA2008-16_2_1_b (severity=3) Cloned From -> PREPROC-10
+    MISRA2008-16_2_1_c (severity=3) Cloned From -> PREPROC-11
+    MISRA2008-16_2_2 (severity=3) Cloned From -> PREPROC-12
+    MISRA2008-16_2_3 (severity=3) Cloned From -> PFO-02
+    MISRA2008-16_2_4 (severity=3) Cloned From -> NAMING-46
+    MISRA2008-16_2_6 (severity=3) Cloned From -> MISRA-089
+    MISRA2008-16_3_1 (severity=3) Cloned From -> MISRA2004-19_12
+    MISRA2008-16_6_1 (severity=3) Cloned From -> MISRA2004-3_4
+    MISRA2008-17_0_1_a (severity=3) Cloned From -> MISRA2004-20_1_a
+    MISRA2008-17_0_1_b (severity=3) Cloned From -> MISRA2004-20_1_b
+    MISRA2008-17_0_1_c (severity=3) Cloned From -> CODSTA-92_a
+    MISRA2008-17_0_1_d (severity=3) Cloned From -> CODSTA-92_b
+    MISRA2008-17_0_1_e (severity=3) Cloned From -> MISRA2004-20_1_e
+    MISRA2008-17_0_2 (severity=3) Cloned From -> CODSTA-92
+    MISRA2008-17_0_3 (severity=3) Cloned From -> CODSTA-93
+    MISRA2008-17_0_5 (severity=3) Cloned From -> MISRA2004-20_7
+    MISRA2008-17_0_5_b (severity=3) Cloned From -> MISRA2004-20_7_b
+    MISRA2008-18_0_1 (severity=3) Cloned From -> CODSTA-CPP-59
+    MISRA2008-18_0_2 (severity=3) Cloned From -> MISRA2004-20_10
+    MISRA2008-18_0_3 (severity=3) Cloned From -> MISRA2004-20_11
+    MISRA2008-18_0_4 (severity=3) Cloned From -> MISRA2004-20_12
+    MISRA2008-18_0_5 (severity=3) Cloned From -> PB-37
+    MISRA2008-18_2_1 (severity=3) Cloned From -> MISRA2004-20_6
+    MISRA2008-18_4_1 (severity=3) Cloned From -> MISRA2004-20_4
+    MISRA2008-18_7_1 (severity=3) Cloned From -> MISRA2004-20_8
+    MISRA2008-18_7_1_b (severity=3) Cloned From -> MISRA2004-20_8_b
+    MISRA2008-19_3_1 (severity=3) Cloned From -> MISRA2004-20_5
+    MISRA2008-27_0_1 (severity=3) Cloned From -> MISRA2004-20_9
+    MISRA2008-2_10_1 (severity=3) Cloned From -> NAMING-47
+    MISRA2008-2_10_2_a (severity=3) Cloned From -> MISRA2004-5_2_a
+    MISRA2008-2_10_2_b (severity=3) Cloned From -> MISRA2004-5_2_b
+    MISRA2008-2_10_4_a (severity=3) Cloned From -> MISRA2004-5_4_a
+    MISRA2008-2_10_4_b (severity=3) Cloned From -> MISRA2004-5_4_b
+    MISRA2008-2_10_4_c (severity=3) Cloned From -> MISRA2004-5_4_c
+    MISRA2008-2_10_6_a (severity=3) Cloned From -> CODSTA-CPP-87_a
+    MISRA2008-2_10_6_b (severity=3) Cloned From -> CODSTA-CPP-87_b
+    MISRA2008-2_10_6_c (severity=3) Cloned From -> CODSTA-CPP-87_c
+    MISRA2008-2_10_6_d (severity=3) Cloned From -> CODSTA-CPP-88
+    MISRA2008-2_13_1 (severity=3) Cloned From -> CODSTA-CPP-60
+    MISRA2008-2_13_2_a (severity=3) Cloned From -> MISRA2004-7_1_a
+    MISRA2008-2_13_2_b (severity=3) Cloned From -> MISRA2004-7_1_b
+    MISRA2008-2_13_3 (severity=3) Cloned From -> CODSTA-68
+    MISRA2008-2_13_4 (severity=3) Cloned From -> CODSTA-51
+    MISRA2008-2_13_5 (severity=3) Cloned From -> PB-38
+    MISRA2008-2_3_1 (severity=3) Cloned From -> MISRA2004-4_2
+    MISRA2008-2_7_1 (severity=3) Cloned From -> MISRA2004-2_3
+    MISRA2008-2_7_2 (severity=3) Cloned From -> MISRA2004-2_4
+    MISRA2008-3_1_1 (severity=3) Cloned From -> PFO-01
+    MISRA2008-3_1_2 (severity=3) Cloned From -> MISRA2004-8_6
+    MISRA2008-3_1_3 (severity=3) Cloned From -> MISRA2004-8_12
+    MISRA2008-3_3_1 (severity=3) Cloned From -> MISRA-023
+    MISRA2008-3_3_2 (severity=3) Cloned From -> CODSTA-81
+    MISRA2008-3_4_1_a (severity=3) Cloned From -> OPT-01
+    MISRA2008-3_4_1_b (severity=3) Cloned From -> MISRA2004-8_7
+    MISRA2008-3_9_1 (severity=3) Cloned From -> CODSTA-67
+    MISRA2008-3_9_3 (severity=3) Cloned From -> MISRA2004-12_12
+    MISRA2008-4_10_1 (severity=3) Cloned From -> CODSTA-CPP-62
+    MISRA2008-4_10_2 (severity=3) Cloned From -> CODSTA-CPP-63
+    MISRA2008-4_5_1 (severity=3) Cloned From -> MISRA2004-12_6_b
+    MISRA2008-4_5_2 (severity=3) Cloned From -> CODSTA-70
+    MISRA2008-4_5_3 (severity=3) Cloned From -> CODSTA-69
+    MISRA2008-5_0_10 (severity=3) Cloned From -> MISRA2004-10_5
+    MISRA2008-5_0_11 (severity=3) Cloned From -> MISRA2004-6_1
+    MISRA2008-5_0_12 (severity=3) Cloned From -> MISRA2004-6_2
+    MISRA2008-5_0_13 (severity=3) Cloned From -> CODSTA-CPP-64
+    MISRA2008-5_0_14 (severity=3) Cloned From -> CODSTA-CPP-65
+    MISRA2008-5_0_15 (severity=3) Cloned From -> MISRA2004-17_4
+    MISRA2008-5_0_17 (severity=3) Cloned From -> MISRA2004-17_2
+    MISRA2008-5_0_18 (severity=3) Cloned From -> MISRA2004-17_3
+    MISRA2008-5_0_19 (severity=3) Cloned From -> MISRA2004-17_5
+    MISRA2008-5_0_1_a (severity=3) Cloned From -> MISRA2004-12_2_a
+    MISRA2008-5_0_1_b (severity=3) Cloned From -> MISRA2004-12_2_b
+    MISRA2008-5_0_1_c (severity=3) Cloned From -> MISRA2004-12_2_c
+    MISRA2008-5_0_1_d (severity=3) Cloned From -> MISRA2004-12_2_d
+    MISRA2008-5_0_1_e (severity=3) Cloned From -> MISRA2004-12_2_e
+    MISRA2008-5_0_1_f (severity=3) Cloned From -> MISRA2004-12_2_f
+    MISRA2008-5_0_1_g (severity=3) Cloned From -> MISRA2004-12_2_g
+    MISRA2008-5_0_20 (severity=3) Cloned From -> CODSTA-66
+    MISRA2008-5_0_21 (severity=3) Cloned From -> CODSTA-63
+    MISRA2008-5_0_3_a (severity=3) Cloned From -> MISRA2004-10_1_c
+    MISRA2008-5_0_3_b (severity=3) Cloned From -> MISRA2004-10_1_f
+    MISRA2008-5_0_3_c (severity=3) Cloned From -> MISRA2004-10_1_i
+    MISRA2008-5_0_4_a (severity=3) Cloned From -> MISRA2004-10_1_a
+    MISRA2008-5_0_4_b (severity=3) Cloned From -> MISRA2004-10_1_h
+    MISRA2008-5_0_5_a (severity=3) Cloned From -> MISRA2004-10_2_a
+    MISRA2008-5_0_5_b (severity=3) Cloned From -> MISRA2004-10_1_b
+    MISRA2008-5_0_6_a (severity=3) Cloned From -> MISRA2004-10_1_d
+    MISRA2008-5_0_6_b (severity=3) Cloned From -> MISRA2004-10_2_b
+    MISRA2008-5_0_6_c (severity=3) Cloned From -> MISRA2004-10_2_d
+    MISRA2008-5_0_7_a (severity=3) Cloned From -> MISRA2004-10_3
+    MISRA2008-5_0_7_b (severity=3) Cloned From -> MISRA2004-10_4
+    MISRA2008-5_0_8 (severity=3) Cloned From -> MISRA2004-10_3
+    MISRA2008-5_0_9 (severity=3) Cloned From -> MISRA2004-10_3
+    MISRA2008-5_14_1 (severity=3) Cloned From -> MISRA2004-12_4_a
+    MISRA2008-5_18_1 (severity=3) Cloned From -> MISRA2004-12_10
+    MISRA2008-5_2_1 (severity=3) Cloned From -> CODSTA-90
+    MISRA2008-5_2_11 (severity=3) Cloned From -> CODSTA-CPP-08
+    MISRA2008-5_2_11_b (severity=3) Cloned From -> CODSTA-CPP-80
+    MISRA2008-5_2_12 (severity=3) Cloned From -> PB-41
+    MISRA2008-5_2_2 (severity=3) Cloned From -> OOP-50
+    MISRA2008-5_2_4 (severity=3) Cloned From -> CODSTA-CPP-66
+    MISRA2008-5_2_5 (severity=3) Cloned From -> MISRA2004-11_5
+    MISRA2008-5_2_6 (severity=3) Cloned From -> CODSTA-62
+    MISRA2008-5_2_7 (severity=3) Cloned From -> MISRA2004-11_4
+    MISRA2008-5_2_8 (severity=3) Cloned From -> CODSTA-65
+    MISRA2008-5_3_1 (severity=3) Cloned From -> CODSTA-CPP-67
+    MISRA2008-5_3_2 (severity=3) Cloned From -> MISRA2004-12_9
+    MISRA2008-5_3_3 (severity=3) Cloned From -> CODSTA-CPP-68
+    MISRA2008-5_3_4 (severity=3) Cloned From -> MISRA2004-12_3
+    MISRA2008-5_3_4_b (severity=3) Cloned From -> MISRA2004-12_3_b
+    MISRA2008-5_3_4_c (severity=3) Cloned From -> MISRA2004-12_3_c
+    MISRA2008-5_8_1 (severity=3) Cloned From -> MISRA2004-12_8
+    MISRA2008-6_2_1 (severity=3) Cloned From -> MISRA2004-13_1
+    MISRA2008-6_2_2 (severity=3) Cloned From -> MISRA2004-13_3
+    MISRA2008-6_2_3 (severity=3) Cloned From -> MISRA2004-14_3
+    MISRA2008-6_3_1 (severity=3) Cloned From -> MISRA2004-14_8
+    MISRA2008-6_4_1 (severity=3) Cloned From -> MISRA2004-14_9
+    MISRA2008-6_4_2 (severity=3) Cloned From -> MISRA2004-14_10
+    MISRA2008-6_4_3_a (severity=3) Cloned From -> MISRA2004-15_1
+    MISRA2008-6_4_3_b (severity=3) Cloned From -> CODSTA-64
+    MISRA2008-6_4_3_c (severity=3) Cloned From -> CODSTA-61
+    MISRA2008-6_4_3_d (severity=3) Cloned From -> MISRA2004-15_4
+    MISRA2008-6_4_3_e (severity=3) Cloned From -> MISRA2004-15_5
+    MISRA2008-6_4_4 (severity=3) Cloned From -> MISRA2004-15_1
+    MISRA2008-6_4_5 (severity=3) Cloned From -> CODSTA-64
+    MISRA2008-6_4_6 (severity=3) Cloned From -> CODSTA-61
+    MISRA2008-6_4_7 (severity=3) Cloned From -> MISRA2004-15_4
+    MISRA2008-6_4_8 (severity=3) Cloned From -> MISRA2004-15_5
+    MISRA2008-6_5_1 (severity=3) Cloned From -> CODSTA-CPP-69
+    MISRA2008-6_5_2 (severity=3) Cloned From -> CODSTA-CPP-70
+    MISRA2008-6_5_3 (severity=3) Cloned From -> MISRA2004-13_6
+    MISRA2008-6_5_4 (severity=3) Cloned From -> CODSTA-CPP-71
+    MISRA2008-6_5_5 (severity=3) Cloned From -> CODSTA-CPP-72
+    MISRA2008-6_5_6 (severity=3) Cloned From -> CODSTA-CPP-73
+    MISRA2008-6_6_1 (severity=3) Cloned From -> CODSTA-78
+    MISRA2008-6_6_2 (severity=3) Cloned From -> CODSTA-77
+    MISRA2008-6_6_3 (severity=3) Cloned From -> CODSTA-80
+    MISRA2008-6_6_4 (severity=3) Cloned From -> CODSTA-79
+    MISRA2008-6_6_5 (severity=3) Cloned From -> MISRA2004-14_7
+    MISRA2008-7_1_1 (severity=3) Cloned From -> CODSTA-CPP-53
+    MISRA2008-7_1_2_a (severity=3) Cloned From -> MISRA2004-16_7
+    MISRA2008-7_1_2_b (severity=3) Cloned From -> CODSTA-CPP-43
+    MISRA2008-7_1_2_c (severity=3) Cloned From -> MISRA2004-16_7_b
+    MISRA2008-7_3_1 (severity=3) Cloned From -> CODSTA-CPP-36
+    MISRA2008-7_3_2 (severity=3) Cloned From -> CODSTA-76
+    MISRA2008-7_3_3 (severity=3) Cloned From -> CODSTA-CPP-74
+    MISRA2008-7_3_4 (severity=3) Cloned From -> CODSTA-CPP-75
+    MISRA2008-7_3_5 (severity=3) Cloned From -> CODSTA-CPP-76
+    MISRA2008-7_4_1 (severity=3) Cloned From -> COMMENT-09
+    MISRA2008-7_4_2 (severity=3) Cloned From -> CODSTA-73
+    MISRA2008-7_4_3 (severity=3) Cloned From -> CODSTA-114
+    MISRA2008-7_5_1 (severity=3) Cloned From -> MISRA2004-17_6_a
+    MISRA2008-7_5_2_a (severity=3) Cloned From -> MISRA2004-17_6_a
+    MISRA2008-7_5_2_b (severity=3) Cloned From -> MISRA2004-17_6_b
+    MISRA2008-7_5_3 (severity=3) Cloned From -> PB-39
+    MISRA2008-8_0_1 (severity=3) Cloned From -> FORMAT-33
+    MISRA2008-8_3_1 (severity=3) Cloned From -> OOP-13
+    MISRA2008-8_4_1 (severity=3) Cloned From -> MISRA-069
+    MISRA2008-8_4_2 (severity=3) Cloned From -> MISRA2004-16_4
+    MISRA2008-8_4_3 (severity=3) Cloned From -> MISRA2004-16_8
+    MISRA2008-8_4_4 (severity=3) Cloned From -> MISRA2004-16_9
+    MISRA2008-8_5_1 (severity=3) Cloned From -> MISRA-030
+    MISRA2008-8_5_2 (severity=3) Cloned From -> MISRA2004-9_2
+    MISRA2008-8_5_2_b (severity=3) Cloned From -> MISRA2004-9_2_b
+    MISRA2008-8_5_2_c (severity=3) Cloned From -> MISRA2004-9_2_c
+    MISRA2008-8_5_3 (severity=3) Cloned From -> MISRA2004-9_3
+    MISRA2008-9_3_1 (severity=3) Cloned From -> CODSTA-CPP-77
+    MISRA2008-9_3_2_a (severity=3) Cloned From -> OOP-12
+    MISRA2008-9_3_2_b (severity=3) Cloned From -> OOP-36
+    MISRA2008-9_3_3 (severity=3) Cloned From -> CODSTA-CPP-78
+    MISRA2008-9_5_1 (severity=3) Cloned From -> MISRA2004-18_4
+    MISRA2008-9_6_2 (severity=3) Cloned From -> CODSTA-75
+    MISRA2008-9_6_3 (severity=3) Cloned From -> CODSTA-74
+    MISRA2008-9_6_4 (severity=3) Cloned From -> CODSTA-71
+    MRM-02 (severity=3)
+    MRM-04 (severity=3)
+    MRM-05 (severity=3)
+    MRM-07 (severity=3)
+    MRM-09 (severity=3)
+    MRM-10 (severity=3)
+    MRM-11 (severity=3)
+    MRM-12 (severity=3)
+    MRM-13 (severity=3)
+    MRM-14 (severity=3)
+    MRM-15 (severity=3)
+    MRM-16 (severity=3)
+    MRM-17 (severity=3)
+    MRM-18 (severity=3)
+    MRM-19 (severity=3)
+    MRM-20 (severity=3)
+    MRM-21 (severity=3)
+    MRM-22 (severity=3)
+    MRM-25 (severity=3)
+    MRM-26 (severity=3)
+    MRM-27 (severity=3)
+    MRM-28 (severity=3)
+    MRM-29 (severity=3)
+    MRM-30 (severity=3)
+    MRM-31 (severity=3)
+    MRM-31_b (severity=3)
+    MRM-34 (severity=3)
+    MRM-35 (severity=3)
+    MRM-36 (severity=3)
+    MRM-40 (severity=3)
+    MRM-40_a (severity=3)
+    MRM-40_b (severity=3)
+    MRM-40_c (severity=3)
+    MRM-40_d (severity=3)
+    MRM-45 (severity=3)
+    MRM-46 (severity=3)
+    MRM-47 (severity=3)
+    MRM-48 (severity=3)
+    MRM-49 (severity=3)
+    MRM-51 (severity=3)
+    NAMING-01 (severity=3)
+    NAMING-02 (severity=3)
+    NAMING-03 (severity=3)
+    NAMING-04 (severity=3)
+    NAMING-05 (severity=3)
+    NAMING-06 (severity=3)
+    NAMING-07 (severity=3)
+    NAMING-08 (severity=3)
+    NAMING-09 (severity=3)
+    NAMING-10 (severity=3)
+    NAMING-11 (severity=3)
+    NAMING-12 (severity=3)
+    NAMING-13 (severity=3)
+    NAMING-14 (severity=3)
+    NAMING-15 (severity=3)
+    NAMING-16 (severity=3)
+    NAMING-17 (severity=3)
+    NAMING-18 (severity=3)
+    NAMING-19 (severity=3)
+    NAMING-20 (severity=3)
+    NAMING-21 (severity=3)
+    NAMING-22 (severity=3)
+    NAMING-23 (severity=3)
+    NAMING-24 (severity=3)
+    NAMING-25 (severity=3)
+    NAMING-26 (severity=3)
+    NAMING-27 (severity=3)
+    NAMING-28 (severity=3)
+    NAMING-29 (severity=3)
+    NAMING-30 (severity=3)
+    NAMING-31 (severity=3)
+    NAMING-32 (severity=3)
+    NAMING-33 (severity=3)
+    NAMING-34 (severity=3)
+    NAMING-35 (severity=3)
+    NAMING-36 (severity=3)
+    NAMING-37 (severity=3)
+    NAMING-38 (severity=3)
+    NAMING-39 (severity=3)
+    NAMING-40 (severity=3)
+    NAMING-41 (severity=3)
+    NAMING-43 (severity=3)
+    NAMING-44 (severity=3)
+    NAMING-45 (severity=3)
+    NAMING-46 (severity=3)
+    NAMING-47 (severity=3)
+    NAMING-48 (severity=3)
+    NAMING-HN-01 (severity=3)
+    NAMING-HN-02 (severity=3)
+    NAMING-HN-03 (severity=3)
+    NAMING-HN-04 (severity=3)
+    NAMING-HN-05 (severity=3)
+    NAMING-HN-06 (severity=3)
+    NAMING-HN-07 (severity=3)
+    NAMING-HN-08 (severity=3)
+    NAMING-HN-09 (severity=3)
+    NAMING-HN-10 (severity=3)
+    NAMING-HN-11 (severity=3)
+    NAMING-HN-12 (severity=3)
+    NAMING-HN-13 (severity=3)
+    NAMING-HN-14 (severity=3)
+    NAMING-HN-15 (severity=3)
+    NAMING-HN-16 (severity=3)
+    NAMING-HN-17 (severity=3)
+    NAMING-HN-18 (severity=3)
+    NAMING-HN-19 (severity=3)
+    NAMING-HN-20 (severity=3)
+    NAMING-HN-21 (severity=3)
+    NAMING-HN-22 (severity=3)
+    NAMING-HN-23 (severity=3)
+    NAMING-HN-24 (severity=3)
+    NAMING-HN-25 (severity=3)
+    NAMING-HN-26 (severity=3)
+    NAMING-HN-27 (severity=3)
+    NAMING-HN-28 (severity=3)
+    NAMING-HN-29 (severity=3)
+    NAMING-HN-30 (severity=3)
+    NAMING-HN-31 (severity=3)
+    NAMING-HN-32 (severity=3)
+    NAMING-HN-33 (severity=3)
+    NAMING-HN-34 (severity=3)
+    NAMING-HN-35 (severity=3)
+    NAMING-HN-36 (severity=3)
+    NAMING-HN-37 (severity=3)
+    NAMING-HN-38 (severity=3)
+    NAMING-HN-39 (severity=3)
+    NAMING-HN-40 (severity=3)
+    NAMING-HN-41 (severity=3)
+    NAMING-HN-42 (severity=3)
+    NAMING-HN-43 (severity=3)
+    NAMING-HN-44 (severity=3)
+    OOP-01 (severity=3)
+    OOP-02 (severity=3)
+    OOP-04 (severity=3)
+    OOP-06 (severity=3)
+    OOP-09 (severity=3)
+    OOP-11 (severity=3)
+    OOP-12 (severity=3)
+    OOP-13 (severity=3)
+    OOP-20 (severity=3)
+    OOP-21 (severity=3)
+    OOP-25 (severity=3)
+    OOP-26 (severity=3)
+    OOP-27 (severity=3)
+    OOP-30 (severity=3)
+    OOP-32 (severity=3)
+    OOP-33 (severity=3)
+    OOP-36 (severity=3)
+    OOP-42 (severity=3)
+    OOP-44 (severity=3)
+    OOP-45 (severity=3)
+    OOP-46 (severity=3)
+    OOP-47 (severity=3)
+    OOP-48 (severity=3)
+    OOP-50 (severity=3)
+    OOP-53 (severity=3)
+    OPT-01 (severity=3)
+    OPT-04 (severity=3)
+    OPT-05 (severity=3)
+    OPT-07 (severity=3)
+    OPT-08 (severity=3)
+    OPT-10 (severity=3)
+    OPT-11 (severity=3)
+    OPT-12 (severity=3)
+    OPT-14 (severity=3)
+    OPT-15 (severity=3)
+    OPT-16 (severity=3)
+    OPT-17 (severity=3)
+    OPT-18 (severity=3)
+    OPT-19 (severity=3)
+    OPT-20 (severity=3)
+    OPT-21 (severity=3)
+    OPT-22 (severity=3)
+    OPT-28 (severity=3)
+    OPT-30 (severity=3)
+    OPT-31 (severity=3)
+    OPT-32 (severity=3)
+    OPT-35 (severity=3)
+    OPT-36 (severity=3)
+    OPT-39 (severity=3)
+    PB-01 (severity=3)
+    PB-02 (severity=3)
+    PB-03 (severity=3)
+    PB-05 (severity=3)
+    PB-06 (severity=3)
+    PB-07 (severity=3)
+    PB-08 (severity=3)
+    PB-10 (severity=3)
+    PB-11 (severity=3)
+    PB-12 (severity=3)
+    PB-14 (severity=3)
+    PB-15 (severity=3)
+    PB-15_b (severity=3)
+    PB-16 (severity=3)
+    PB-17 (severity=3)
+    PB-18 (severity=3)
+    PB-19 (severity=3)
+    PB-20 (severity=3)
+    PB-22 (severity=3)
+    PB-30 (severity=3)
+    PB-31 (severity=3)
+    PB-32 (severity=3)
+    PB-33 (severity=3)
+    PB-33_b (severity=3)
+    PB-34 (severity=3)
+    PB-35 (severity=3)
+    PB-36 (severity=3)
+    PB-37 (severity=3)
+    PB-38 (severity=3)
+    PB-39 (severity=3)
+    PB-41 (severity=3)
+    PB-41_b (severity=3)
+    PB-42 (severity=3)
+    PB-43 (severity=3)
+    PB-44 (severity=3)
+    PB-45 (severity=3)
+    PB-46 (severity=3)
+    PB-47 (severity=3)
+    PB-48 (severity=3)
+    PB-49 (severity=3)
+    PB-50 (severity=3)
+    PB-51 (severity=3)
+    PB-52 (severity=3)
+    PB-53 (severity=3)
+    PB-56 (severity=3)
+    PB-57 (severity=3)
+    PB-58 (severity=3)
+    PB-59 (severity=3)
+    PB-60 (severity=3)
+    PB-61 (severity=3)
+    PB-62 (severity=3)
+    PB-63 (severity=3)
+    PB-64 (severity=3)
+    PB-65 (severity=3)
+    PB-65_b (severity=3)
+    PB-66_a (severity=3)
+    PB-67 (severity=3)
+    PB-69 (severity=3)
+    PFO-01 (severity=3)
+    PFO-02 (severity=3)
+    PFO-03 (severity=3)
+    PFO-05 (severity=3)
+    PFO-06 (severity=3)
+    PFO-07 (severity=3)
+    PFO-08 (severity=3)
+    PFO-09 (severity=3)
+    PORT-02 (severity=3)
+    PORT-06 (severity=3)
+    PORT-07 (severity=3)
+    PORT-08 (severity=3)
+    PORT-10 (severity=3)
+    PORT-12 (severity=3)
+    PORT-13 (severity=3)
+    PORT-14 (severity=3)
+    PORT-15 (severity=3)
+    PORT-16 (severity=3)
+    PORT-17 (severity=3)
+    PORT-19 (severity=3)
+    PORT-20 (severity=3)
+    PORT-21 (severity=3)
+    PORT-27 (severity=3)
+    PORT-28 (severity=3)
+    PREPROC-01 (severity=3)
+    PREPROC-08 (severity=3)
+    PREPROC-10 (severity=3)
+    PREPROC-12 (severity=3)
+    PREPROC-13 (severity=3)
+    PREPROC-14 (severity=3)
+    PREPROC-15 (severity=3)
+    PREPROC-16 (severity=3)
+    PREPROC-18 (severity=3)
+    PREPROC-19 (severity=3)
+    QT-01 (severity=3)
+    QT-02 (severity=3)
+    QT-03 (severity=3)
+    QT-05 (severity=3)
+    QT-06 (severity=3)
+    QT-08 (severity=3)
+    QT-10 (severity=3)
+    QT-13 (severity=3)
+    QT-14 (severity=3)
+    QT-15 (severity=3)
+    QT-16 (severity=3)
+    QT-17 (severity=3)
+    QT-18 (severity=3)
+    SECURITY-02_b (severity=3)
+    SECURITY-06 (severity=3)
+    SECURITY-07 (severity=3)
+    SECURITY-39 (severity=3)
+    SECURITY-42 (severity=3)
+    SECURITY-43 (severity=3)
+    SECURITY-44 (severity=3)
+    SECURITY-45 (severity=3)
+    SECURITY-46 (severity=3)
+    SECURITY-47 (severity=3)
+    SECURITY-48 (severity=3)
+    STL-02 (severity=3)
+    STL-03 (severity=3)
+    STL-04 (severity=3)
+    STL-05 (severity=3)
+    STL-06 (severity=3)
+    STL-07 (severity=3)
+    STL-08 (severity=3)
+    STL-09 (severity=3)
+    STL-10 (severity=3)
+    STL-12 (severity=3)
+    STL-13 (severity=3)
+    STL-14 (severity=3)
+    STL-15 (severity=3)
+    STL-16 (severity=3)
+    STL-17 (severity=3)
+    STL-18 (severity=3)
+    STL-19 (severity=3)
+    STL-22 (severity=3)
+    STL-23 (severity=3)
+    STL-24 (severity=3)
+    STL-26 (severity=3)
+    STL-27 (severity=3)
+    STL-28 (severity=3)
+    STL-29 (severity=3)
+    STL-30 (severity=3)
+    STL-31 (severity=3)
+    STL-32 (severity=3)
+    STL-33 (severity=3)
+    STL-34 (severity=3)
+    STL-35 (severity=3)
+    STL-36 (severity=3)
+    STL-38 (severity=3)
+    STL-39 (severity=3)
+    STL-40 (severity=3)
+    STL-41 (severity=3)
+    STL-42 (severity=3)
+    TEMPL-01 (severity=3)
+    TEMPL-02 (severity=3)
+    TEMPL-03 (severity=3)
+    TEMPL-04 (severity=3)
+    TEMPL-05 (severity=3)
+    TEMPL-06 (severity=3)
+    TEMPL-07 (severity=3)
+    TEMPL-08 (severity=3)
+    TEMPL-09 (severity=3)
+    TEMPL-10 (severity=3)
+    TEMPL-11 (severity=3)
+    TEMPL-12 (severity=3)
+    CODSTA-105 (severity=4)
+    CODSTA-109 (severity=4)
+    CODSTA-115 (severity=4)
+    CODSTA-123 (severity=4)
+    CODSTA-127 (severity=4)
+    CODSTA-127_b (severity=4)
+    CODSTA-128 (severity=4)
+    CODSTA-132 (severity=4)
+    CODSTA-134 (severity=4)
+    CODSTA-151 (severity=4)
+    CODSTA-165_a (severity=4)
+    CODSTA-165_c (severity=4)
+    CODSTA-175_a (severity=4)
+    CODSTA-175_b (severity=4)
+    CODSTA-176_a (severity=4)
+    CODSTA-176_b (severity=4)
+    CODSTA-177 (severity=4)
+    CODSTA-181 (severity=4)
+    CODSTA-41 (severity=4)
+    CODSTA-57 (severity=4)
+    CODSTA-58 (severity=4)
+    CODSTA-59 (severity=4)
+    CODSTA-CPP-22 (severity=4)
+    CODSTA-CPP-81 (severity=4)
+    CODSTA-CPP-89 (severity=4)
+    CODSTA-MCPP-04 (severity=4)
+    CODSTA-MCPP-11_a_cpp11 (severity=4)
+    CODSTA-MCPP-11_b_cpp11 (severity=4)
+    CODSTA-MCPP-16_a (severity=4)
+    CODSTA-MCPP-16_b (severity=4)
+    FORMAT-32 (severity=4)
+    FORMAT-39 (severity=4)
+    INIT-15 (severity=4)
+    JSF-043 (severity=4) Cloned From -> FORMAT-01
+    JSF-067_a (severity=4) Cloned From -> OOP-18
+    JSF-067_b (severity=4) Cloned From -> OOP-19
+    JSF-070 (severity=4) Cloned From -> OOP-11
+    JSF-087 (severity=4) Cloned From -> OOP-40
+    JSF-098 (severity=4) Cloned From -> CODSTA-CPP-36
+    JSF-100 (severity=4) Cloned From -> CODSTA-CPP-39
+    JSF-105 (severity=4) Cloned From -> TEMPL-12
+    JSF-109 (severity=4) Cloned From -> CODSTA-CPP-32
+    JSF-112 (severity=4) Cloned From -> MRM-23
+    JSF-115_a (severity=4) Cloned From -> CODSTA-CPP-58
+    JSF-116 (severity=4) Cloned From -> CODSTA-36
+    JSF-117 (severity=4) Cloned From -> OPT-14
+    JSF-117.1 (severity=4) Cloned From -> CODSTA-CPP-43
+    JSF-117_a (severity=4) Cloned From -> PB-20
+    JSF-117_b (severity=4) Cloned From -> PB-23
+    JSF-118 (severity=4) Cloned From -> MISRA2004-16_7
+    JSF-118_b (severity=4) Cloned From -> MISRA2004-16_7_b
+    JSF-121 (severity=4) Cloned From -> OPT-25
+    JSF-122 (severity=4) Cloned From -> OPT-23
+    JSF-123 (severity=4) Cloned From -> CODSTA-CPP-81
+    JSF-124 (severity=4) Cloned From -> OPT-24
+    JSF-125_a (severity=4) Cloned From -> OPT-14
+    JSF-134 (severity=4) Cloned From -> COMMENT-04
+    JSF-136_a (severity=4) Cloned From -> MISRA2004-8_7
+    JSF-136_b (severity=4) Cloned From -> OPT-01
+    JSF-137 (severity=4) Cloned From -> MISRA-023
+    JSF-169 (severity=4) Cloned From -> CODSTA-05
+    JSF-177 (severity=4) Cloned From -> CODSTA-CPP-05
+    JSF-177_b (severity=4) Cloned From -> CODSTA-CPP-04
+    JSF-183 (severity=4) Cloned From -> CODSTA-31
+    JSF-183_a (severity=4) Cloned From -> CODSTA-CPP-34
+    JSF-183_b (severity=4) Cloned From -> CODSTA-CPP-09
+    JSF-215 (severity=4) Cloned From -> MISRA-101
+    MISRA-023 (severity=4)
+    MISRA2004-2_4 (severity=4)
+    MISRA2004-5_5_a (severity=4)
+    MISRA2004-5_5_b (severity=4)
+    MISRA2004-5_6 (severity=4)
+    MISRA2004-5_7 (severity=4)
+    MISRA2004-8_10 (severity=4) Cloned From -> MISRA-023
+    MISRA2008-10_1_1 (severity=4) Cloned From -> OOP-47
+    MISRA2008-12_1_2 (severity=4) Cloned From -> PB-43
+    MISRA2008-14_8_2 (severity=4) Cloned From -> TEMPL-08
+    MISRA2008-15_0_2 (severity=4) Cloned From -> EXCEPT-09
+    MISRA2008-15_3_2 (severity=4) Cloned From -> EXCEPT-06
+    MISRA2008-16_2_5 (severity=4) Cloned From -> NAMING-48
+    MISRA2008-16_3_2 (severity=4) Cloned From -> MISRA2004-19_13
+    MISRA2008-2_10_5_a (severity=4) Cloned From -> MISRA2004-5_5_a
+    MISRA2008-2_10_5_b (severity=4) Cloned From -> MISRA2004-5_5_b
+    MISRA2008-2_5_1 (severity=4) Cloned From -> CODSTA-48
+    MISRA2008-2_7_3 (severity=4) Cloned From -> MISRA2004-2_4
+    MISRA2008-3_9_2 (severity=4) Cloned From -> MISRA-013
+    MISRA2008-5_0_2_a (severity=4) Cloned From -> MISRA2004-12_1_a
+    MISRA2008-5_0_2_b (severity=4) Cloned From -> MISRA2004-12_1_b
+    MISRA2008-5_0_2_c (severity=4) Cloned From -> MISRA2004-12_1_c
+    MISRA2008-5_0_2_d (severity=4) Cloned From -> MISRA2004-12_1_d
+    MISRA2008-5_0_2_e (severity=4) Cloned From -> MISRA2004-12_1_e
+    MISRA2008-5_0_2_f (severity=4) Cloned From -> MISRA2004-12_1_f
+    MISRA2008-5_2_10 (severity=4) Cloned From -> MISRA2004-12_13
+    MISRA2008-5_2_3 (severity=4) Cloned From -> OOP-49
+    MISRA2008-5_2_9 (severity=4) Cloned From -> MISRA2004-11_3_a
+    MISRA2008-7_5_4 (severity=4) Cloned From -> MISRA2004-16_2
+    MISRA2012-DIR-4_2 (severity=4) Cloned From -> COMMENT-09
+    MISRA2012-DIR-4_4 (severity=4) Cloned From -> MISRA2004-2_4
+    MISRA2012-DIR-4_5 (severity=4) Cloned From -> NAMING-50
+    MISRA2012-DIR-4_6_a (severity=4) Cloned From -> MISRA2004-6_3
+    MISRA2012-DIR-4_6_b (severity=4) Cloned From -> MISRA2004-6_3_b
+    MISRA2012-DIR-4_6_c (severity=4) Cloned From -> CODSTA-155
+    MISRA2012-DIR-4_8 (severity=4) Cloned From -> CODSTA-115
+    MISRA2012-DIR-4_9 (severity=4) Cloned From -> MISRA2004-19_7
+    MISRA2012-RULE-10_5_a (severity=4) Cloned From -> CODSTA-165_a
+    MISRA2012-RULE-10_5_b (severity=4) Cloned From -> CODSTA-165_b
+    MISRA2012-RULE-10_5_c (severity=4) Cloned From -> CODSTA-165_c
+    MISRA2012-RULE-11_4 (severity=4) Cloned From -> CODSTA-127
+    MISRA2012-RULE-11_5 (severity=4) Cloned From -> CODSTA-128
+    MISRA2012-RULE-12_1_a (severity=4) Cloned From -> MISRA2004-12_1_e
+    MISRA2012-RULE-12_1_b (severity=4) Cloned From -> MISRA2004-12_5
+    MISRA2012-RULE-12_1_c (severity=4) Cloned From -> FORMAT-25
+    MISRA2012-RULE-12_3 (severity=4) Cloned From -> MISRA2004-12_10
+    MISRA2012-RULE-12_4_a (severity=4) Cloned From -> PB-66_a
+    MISRA2012-RULE-12_4_b (severity=4) Cloned From -> PB-66_b
+    MISRA2012-RULE-13_3 (severity=4) Cloned From -> CODSTA-123
+    MISRA2012-RULE-13_4 (severity=4) Cloned From -> CODSTA-138
+    MISRA2012-RULE-15_1 (severity=4) Cloned From -> MISRA2004-14_4
+    MISRA2012-RULE-15_4 (severity=4) Cloned From -> CODSTA-79
+    MISRA2012-RULE-15_5 (severity=4) Cloned From -> MISRA2004-14_7
+    MISRA2012-RULE-17_5 (severity=4) Cloned From -> CODSTA-134
+    MISRA2012-RULE-17_8 (severity=4) Cloned From -> CODSTA-132
+    MISRA2012-RULE-18_4 (severity=4) Cloned From -> CODSTA-181
+    MISRA2012-RULE-18_5 (severity=4) Cloned From -> MISRA2004-17_5
+    MISRA2012-RULE-19_2 (severity=4) Cloned From -> CODSTA-111
+    MISRA2012-RULE-20_1 (severity=4) Cloned From -> MISRA2004-19_1
+    MISRA2012-RULE-20_10 (severity=4) Cloned From -> MISRA2004-19_13
+    MISRA2012-RULE-20_5 (severity=4) Cloned From -> MISRA2004-19_6
+    MISRA2012-RULE-21_12 (severity=4) Cloned From -> CODSTA-109
+    MISRA2012-RULE-2_3_a (severity=4) Cloned From -> CODSTA-175_a
+    MISRA2012-RULE-2_3_b (severity=4) Cloned From -> CODSTA-175_b
+    MISRA2012-RULE-2_4_a (severity=4) Cloned From -> CODSTA-176_a
+    MISRA2012-RULE-2_4_b (severity=4) Cloned From -> CODSTA-176_b
+    MISRA2012-RULE-2_5 (severity=4) Cloned From -> CODSTA-177
+    MISRA2012-RULE-2_6 (severity=4) Cloned From -> OPT-37
+    MISRA2012-RULE-2_7 (severity=4) Cloned From -> OPT-38
+    MISRA2012-RULE-4_2 (severity=4) Cloned From -> MISRA2004-4_2
+    MISRA2012-RULE-5_9_a (severity=4) Cloned From -> MISRA2004-5_5_a
+    MISRA2012-RULE-5_9_b (severity=4) Cloned From -> MISRA2004-5_5_b
+    MISRA2012-RULE-8_11 (severity=4) Cloned From -> MISRA2004-8_12
+    MISRA2012-RULE-8_13_a (severity=4) Cloned From -> MISRA2004-16_7
+    MISRA2012-RULE-8_13_b (severity=4) Cloned From -> MISRA2004-16_7_b
+    MISRA2012-RULE-8_9 (severity=4) Cloned From -> MISRA2004-8_7
+    MRM-50 (severity=4)
+    NAMING-49 (severity=4)
+    NAMING-50 (severity=4)
+    OOP-17 (severity=4)
+    OOP-34 (severity=4)
+    OOP-39 (severity=4)
+    OOP-40 (severity=4)
+    OOP-43 (severity=4)
+    OOP-52 (severity=4)
+    OPT-02 (severity=4)
+    OPT-06 (severity=4)
+    OPT-23 (severity=4)
+    OPT-24 (severity=4)
+    OPT-25 (severity=4)
+    OPT-27 (severity=4)
+    OPT-29 (severity=4)
+    OPT-32_b (severity=4)
+    OPT-37 (severity=4)
+    OPT-38 (severity=4)
+    OPT-40_a (severity=4)
+    OPT-40_b (severity=4)
+    PB-66_b (severity=4)
+    PREPROC-03 (severity=4)
+    PREPROC-04 (severity=4)
+    PREPROC-17 (severity=4)
+    QT-11 (severity=4)
+    SECURITY-03 (severity=4)
+    SECURITY-40 (severity=4)
+    SECURITY-41 (severity=4)
+    STL-11 (severity=4)
+    STL-20 (severity=4)
+    STL-21 (severity=4)
+    STL-25 (severity=4)
+    STL-37-DOWNGRADED (severity=4) Mapped From -> STL-37
+    CODSTA-02 (severity=5)
+    CODSTA-04 (severity=5)
+    CODSTA-11 (severity=5)
+    CODSTA-150_b (severity=5)
+    CODSTA-18 (severity=5)
+    CODSTA-21 (severity=5)
+    CODSTA-24 (severity=5)
+    CODSTA-25 (severity=5)
+    CODSTA-28 (severity=5)
+    CODSTA-42 (severity=5)
+    CODSTA-43 (severity=5)
+    CODSTA-46 (severity=5)
+    CODSTA-93 (severity=5)
+    CODSTA-CPP-01 (severity=5)
+    CODSTA-CPP-06-DOWNGRADED (severity=5) Mapped From -> CODSTA-CPP-06
+    CODSTA-CPP-18 (severity=5)
+    CODSTA-CPP-21 (severity=5)
+    CODSTA-CPP-23 (severity=5)
+    CODSTA-CPP-31 (severity=5)
+    CODSTA-CPP-40 (severity=5)
+    FORMAT-01 (severity=5)
+    FORMAT-40 (severity=5)
+    FORMAT-41 (severity=5)
+    INIT-14 (severity=5)
+    JSF-125_b (severity=5) Cloned From -> OPT-19
+    METRICS-01 (severity=5)
+    METRICS-02 (severity=5)
+    METRICS-17 (severity=5)
+    METRICS-24 (severity=5)
+    METRICS-29 (severity=5)
+    METRICS-33 (severity=5)
+    METRICS-34 (severity=5)
+    METRICS-35 (severity=5)
+    METRICS-42 (severity=5)
+    MISRA-004_a (severity=5)
+    MISRA-004_b (severity=5)
+    MISRA-018_a (severity=5)
+    MISRA-018_b (severity=5)
+    MISRA-018_c (severity=5)
+    MISRA-018_d (severity=5)
+    MISRA-022 (severity=5)
+    MISRA-028 (severity=5)
+    MISRA-041 (severity=5)
+    MISRA-051 (severity=5)
+    MISRA-055 (severity=5)
+    MISRA2004-10_6 (severity=5)
+    MISRA2004-12_1_b (severity=5)
+    MISRA2004-12_1_c (severity=5)
+    MISRA2004-12_1_f (severity=5)
+    OOP-05-DOWNGRADED (severity=5) Mapped From -> OOP-05
+    OOP-14 (severity=5)
+    OOP-37 (severity=5)
+    OOP-51 (severity=5)
+    OPT-09 (severity=5)
+    OPT-13-DOWNGRADED (severity=5) Mapped From -> OPT-13
+    OPT-33 (severity=5)
+    PFO-04 (severity=5)
+    PORT-01 (severity=5)
+    PORT-22 (severity=5)
+    PORT-23 (severity=5)
+    PORT-24 (severity=5)
+    PREPROC-07 (severity=5)
+    STL-01 (severity=5)
+Rules count: 2068
+com.parasoft.xtest.cpp.analyzer.static.pattern rules (providerId=cpptest_parseerrors_builtin):
+    PARSER-WARNING (severity=4)
+    PARSER-REMARK (severity=5)
+Rules count: 2
+com.parasoft.xtest.cpp.analyzer.static.pattern rules (providerId=cpptest_cs_user):
+Rules count: 0
+com.parasoft.xtest.cpp.analyzer.static.pattern rules (providerId=StaticAnalyzerUserRuleProvider):
+Rules count: 0
+com.parasoft.xtest.cpp.analyzer.static.dupcode rules (providerId=cpptest_cdd):
+    CDD-DUPM (severity=2)
+    CDD-DUPC (severity=3)
+    CDD-DUPI (severity=3)
+    CDD-DUPS (severity=3)
+Rules count: 4
+com.parasoft.xtest.cpp.analyzer.static.pattern rules (providerId=StaticAnalyzerTeamRuleProvider):
+Rules count: 0
+com.parasoft.xtest.cpp.analyzer.static.flow rules (providerId=cpptest_fa_user):
+Rules count: 0
+com.parasoft.xtest.cpp.analyzer.static.flow rules (providerId=cpptest_fa_builtin):
+    BD-API-BADPARAM (severity=1)
+    BD-API-NEGPARAM (severity=1)
+    BD-CO-ITOUT (severity=1)
+    BD-MISC-TRANS (severity=1)
+    BD-PB-EXCEPT (severity=1)
+    BD-PB-MODSTR (severity=1)
+    BD-PB-NOTINIT (severity=1)
+    BD-PB-NP (severity=1)
+    BD-PB-OVERFFMT (severity=1)
+    BD-PB-OVERFNZT (severity=1)
+    BD-PB-OVERFRD (severity=1)
+    BD-PB-OVERFWR (severity=1)
+    BD-PB-POVR (severity=1)
+    BD-PB-WRAPESC (severity=1)
+    BD-PB-ZERO (severity=1)
+    BD-RES-BADFREEF (severity=1)
+    BD-RES-FREE (severity=1)
+    BD-RES-INVFREE (severity=1)
+    BD-RES-LEAKS (severity=1)
+    BD-SECURITY-ARRAY (severity=1)
+    BD-SECURITY-BUFWRITE (severity=1)
+    BD-SECURITY-INTOVERF (severity=1)
+    BD-SECURITY-OVERFFMT (severity=1)
+    BD-SECURITY-OVERFRD (severity=1)
+    BD-SECURITY-OVERFWR (severity=1)
+    BD-SECURITY-TDCMD (severity=1)
+    BD-SECURITY-TDCONSOLE (severity=1)
+    BD-SECURITY-TDENV (severity=1)
+    BD-SECURITY-TDFNAMES (severity=1)
+    BD-SECURITY-TDSQL (severity=1)
+    BD-TRS-DIFCS (severity=1)
+    BD-TRS-DLOCK (severity=1)
+    BD-TRS-FORKFILE (severity=1)
+    BD-TRS-LOCK (severity=1)
+    BD-TRS-MLOCK (severity=1)
+    BD-TRS-ORDER (severity=1)
+    BD-TRS-SYMLINK (severity=1)
+    BD-TRS-TSHL (severity=1)
+    MISRA2012-RULE-21_13 (severity=1) Cloned From -> BD-API-CTYPE
+    MISRA2012-RULE-21_17_a (severity=1) Cloned From -> BD-PB-OVERFNZT
+    MISRA2012-RULE-21_17_b (severity=1) Cloned From -> BD-PB-OVERFWR
+    MISRA2012-RULE-21_18 (severity=1) Cloned From -> BD-API-STRSIZE
+    MISRA2012-RULE-21_20 (severity=1) Cloned From -> BD-PB-INVRET
+    MISRA2012-RULE-22_2_a (severity=1) Cloned From -> BD-RES-FREE
+    MISRA2012-RULE-22_2_b (severity=1) Cloned From -> BD-RES-INVFREE
+    MISRA2012-RULE-22_4 (severity=1) Cloned From -> BD-PB-WRROS
+    MISRA2012-RULE-22_6 (severity=1) Cloned From -> BD-RES-FREE
+    MISRA2012-RULE-9_1 (severity=1) Cloned From -> BD-PB-NOTINIT
+    BD-API-CTYPE (severity=2)
+    BD-API-REVNEGPARAM (severity=2)
+    BD-API-STRSIZE (severity=2)
+    BD-API-VALPARAM (severity=2)
+    BD-CO-ITINVCOMP (severity=2)
+    BD-CO-ITMOD (severity=2)
+    BD-PB-ARRAY (severity=2)
+    BD-PB-BADSHIFT (severity=2)
+    BD-PB-BYTEORD (severity=2)
+    BD-PB-CC (severity=2)
+    BD-PB-CHECKRET (severity=2)
+    BD-PB-CHECKRETGEN (severity=2)
+    BD-PB-DEREF (severity=2)
+    BD-PB-EOFCOMP (severity=2)
+    BD-PB-ERRNO (severity=2)
+    BD-PB-INFREC (severity=2)
+    BD-PB-INVENV (severity=2)
+    BD-PB-INVRET (severity=2)
+    BD-PB-MCCSTR (severity=2)
+    BD-PB-NORETURN (severity=2)
+    BD-PB-OVERFARRAY (severity=2)
+    BD-PB-PUTENV (severity=2)
+    BD-PB-SWITCH (severity=2)
+    BD-PB-VCTOR (severity=2)
+    BD-PB-VDTOR (severity=2)
+    BD-PB-WRRDSTR (severity=2)
+    BD-PB-WRROS (severity=2)
+    BD-SECURITY-RAND (severity=2)
+    BD-TRS-ARG (severity=2)
+    MISRA2012-DIR-4_11 (severity=2) Cloned From -> BD-API-VALPARAM
+    MISRA2012-DIR-4_14_a (severity=2) Cloned From -> BD-SECURITY-ARRAY
+    MISRA2012-DIR-4_14_b (severity=2) Cloned From -> BD-SECURITY-INTOVERF
+    MISRA2012-DIR-4_14_c (severity=2) Cloned From -> BD-SECURITY-OVERFRD
+    MISRA2012-DIR-4_14_d (severity=2) Cloned From -> BD-SECURITY-OVERFWR
+    MISRA2012-DIR-4_14_e (severity=2) Cloned From -> BD-SECURITY-TDCMD
+    MISRA2012-DIR-4_14_f (severity=2) Cloned From -> BD-SECURITY-TDFNAMES
+    MISRA2012-DIR-4_14_g (severity=2) Cloned From -> BD-SECURITY-TDSQL
+    MISRA2012-DIR-4_14_h (severity=2) Cloned From -> BD-SECURITY-BUFWRITE
+    MISRA2012-DIR-4_14_i (severity=2) Cloned From -> BD-SECURITY-OVERFFMT
+    MISRA2012-DIR-4_14_j (severity=2) Cloned From -> BD-SECURITY-TDENV
+    MISRA2012-DIR-4_14_k (severity=2) Cloned From -> BD-SECURITY-TDCONSOLE
+    MISRA2012-DIR-4_1_a (severity=2) Cloned From -> BD-PB-ARRAY
+    MISRA2012-DIR-4_1_b (severity=2) Cloned From -> BD-PB-NP
+    MISRA2012-DIR-4_1_c (severity=2) Cloned From -> BD-PB-ZERO
+    MISRA2012-DIR-4_1_d (severity=2) Cloned From -> BD-PB-OVERFFMT
+    MISRA2012-DIR-4_1_e (severity=2) Cloned From -> BD-PB-OVERFNZT
+    MISRA2012-DIR-4_1_f (severity=2) Cloned From -> BD-PB-DEREF
+    MISRA2012-DIR-4_1_g (severity=2) Cloned From -> BD-PB-OVERFRD
+    MISRA2012-DIR-4_1_h (severity=2) Cloned From -> BD-PB-OVERFWR
+    MISRA2012-DIR-4_7_a (severity=2) Cloned From -> BD-PB-CHECKRET
+    MISRA2012-DIR-4_7_b (severity=2) Cloned From -> BD-PB-CHECKRETGEN
+    MISRA2012-RULE-14_3_zc (severity=2) Cloned From -> BD-PB-CC
+    MISRA2012-RULE-14_3_zd (severity=2) Cloned From -> BD-PB-SWITCH
+    MISRA2012-RULE-18_1_a (severity=2) Cloned From -> BD-PB-ARRAY
+    MISRA2012-RULE-18_1_b (severity=2) Cloned From -> BD-PB-OVERFARRAY
+    MISRA2012-RULE-1_3_a (severity=2) Cloned From -> BD-PB-ZERO
+    MISRA2012-RULE-1_3_b (severity=2) Cloned From -> BD-PB-NOTINIT
+    MISRA2012-RULE-1_3_c (severity=2) Cloned From -> BD-RES-FREE
+    MISRA2012-RULE-1_3_d (severity=2) Cloned From -> BD-PB-OVERFRD
+    MISRA2012-RULE-1_3_e (severity=2) Cloned From -> BD-PB-OVERFWR
+    MISRA2012-RULE-21_14 (severity=2) Cloned From -> BD-PB-MCCSTR
+    MISRA2012-RULE-22_1 (severity=2) Cloned From -> BD-RES-LEAKS
+    MISRA2012-RULE-22_10 (severity=2) Cloned From -> BD-PB-ERRNO
+    MISRA2012-RULE-22_3 (severity=2) Cloned From -> BD-PB-WRRDSTR
+    MISRA2012-RULE-22_7 (severity=2) Cloned From -> BD-PB-EOFCOMP
+    MISRA2012-RULE-22_8 (severity=2) Cloned From -> BD-PB-ERRNO
+    MISRA2012-RULE-22_9 (severity=2) Cloned From -> BD-PB-ERRNO
+    BD-PB-INTOVERF (severity=3)
+    BD-PB-NZTS (severity=3)
+    BD-PB-STREAMFLAGS (severity=3)
+    BD-PB-STREAMFMT (severity=3)
+    BD-PB-VARARGS (severity=3)
+    BD-PB-VOVR (severity=3)
+    BD-RES-STACKLIM (severity=3)
+    BD-TRS-BITLOCK (severity=3)
+    BD-TRS-DSTRLOCK (severity=3)
+    BD-TRS-REVLOCK (severity=3)
+    BD-PB-UCMETH (severity=4)
+    MISRA2012-DIR-4_13_a (severity=4) Cloned From -> BD-RES-LEAKS
+    MISRA2012-DIR-4_13_b (severity=4) Cloned From -> BD-RES-FREE
+    MISRA2012-DIR-4_13_c (severity=4) Cloned From -> BD-RES-INVFREE
+    MISRA2012-DIR-4_13_d (severity=4) Cloned From -> BD-TRS-LOCK
+    MISRA2012-DIR-4_13_e (severity=4) Cloned From -> BD-TRS-DLOCK
+    BD-MISC-DC (severity=5)
+    BD-PB-RECFUN (severity=5)
+Rules count: 133
+com.parasoft.xtest.cpp.analyzer.static.metrics rules (providerId=cpptest_metrics):
+    METRIC.CBO (severity=3)
+    METRIC.CC (severity=3)
+    METRIC.CLLOCRIF (severity=3)
+    METRIC.CLLOCRIM (severity=3)
+    METRIC.CLLOCRIT (severity=3)
+    METRIC.DIF (severity=3)
+    METRIC.ECC (severity=3)
+    METRIC.FO (severity=3)
+    METRIC.HDIFM (severity=3)
+    METRIC.HEFM (severity=3)
+    METRIC.HICM (severity=3)
+    METRIC.HLENM (severity=3)
+    METRIC.HLEVM (severity=3)
+    METRIC.HNOBM (severity=3)
+    METRIC.HTTPM (severity=3)
+    METRIC.HVOCM (severity=3)
+    METRIC.HVOLM (severity=3)
+    METRIC.IDOC (severity=3)
+    METRIC.LCOM (severity=3)
+    METRIC.MCC (severity=3)
+    METRIC.MI (severity=3)
+    METRIC.NBD (severity=3)
+    METRIC.NOBLIF (severity=3)
+    METRIC.NOBLIM (severity=3)
+    METRIC.NOBLIT (severity=3)
+    METRIC.NOC (severity=3)
+    METRIC.NOCLIF (severity=3)
+    METRIC.NOCLIM (severity=3)
+    METRIC.NOCLIT (severity=3)
+    METRIC.NOF (severity=3)
+    METRIC.NOLLOCIF (severity=3)
+    METRIC.NOLLOCIM (severity=3)
+    METRIC.NOLLOCIT (severity=3)
+    METRIC.NOMIT (severity=3)
+    METRIC.NOPAR (severity=3)
+    METRIC.NOPLIF (severity=3)
+    METRIC.NOPLIM (severity=3)
+    METRIC.NOPLIT (severity=3)
+    METRIC.NOPRIVMIT (severity=3)
+    METRIC.NOPROTMIT (severity=3)
+    METRIC.NOPUBMIT (severity=3)
+    METRIC.NORET (severity=3)
+    METRIC.NOSLIF (severity=3)
+    METRIC.NOSLIM (severity=3)
+    METRIC.NOSLIT (severity=3)
+    METRIC.NOT (severity=3)
+    METRIC.RFC (severity=3)
+    METRIC.SCC (severity=3)
+    METRIC.WMC (severity=3)
+Rules count: 49
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.reports.internal.mail.MailReportPublisher@7ea13
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@3ee3a2
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    mail.server.auth.required=false
+    mail.server.security=STARTTLS
+    smtp.mail.server.port=25
+
+DIAGNOSTICS INFO:
+    (Not available)
+================================================================================================
+SCM PROBLEMS
+================================================================================================
+Instances:
+    (none)
+
+Invalid (missing required keys) repositories:
+    (none)
+
+Incomplete (partially recognized) repositories:
+    (none)
+
+
+================================================================================================
+Source Publishing Info
+================================================================================================
+Sources total: 0
+Sources to publish: 0
+Sources published: 0
+Bytes sent: 0
+Exceptions: 0
+Messages: 0
+================================================================================================
+PROFILER RESULTS
+================================================================================================
+
+License Profiler
++ ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                  | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| LicenseService.isEnabled[Main]                        | 40    | 0.045     | 0.0     | 0.021   | 0.001   |
+| IntLicManager.getState[C++Test]                       | 60    | 0.043     | 0.0     | 0.021   | 0.0     |
+| IntLicManager.activateLicense                         | 1     | 0.021     | 0.021   | 0.021   | 0.021   |
+| IntLicManager.WAIT[main]                              | 1     | 0.02      | 0.02    | 0.02    | 0.02    |
+| IntLicManager.WAIT[ServiceDiagnosticCollector Thread] | 1     | 0.019     | 0.019   | 0.019   | 0.019   |
+| LicenseModule.initializeModule                        | 1     | 0.005     | 0.005   | 0.005   | 0.005   |
+| IntLicManager.releaseLicenes                          | 1     | 0.004     | 0.004   | 0.004   | 0.004   |
+| IntLicManager.activateFinished                        | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| LicenseService.isEnabled[Security]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Command-Line-Execution]      | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Edit]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Access]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Flow Analysis]         | 6     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[XML-Report-Generation]       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Results-Upload]   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Application-Monitoring]      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Native-Tests-Import]         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Embedded-Testing]            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseServiceModules .statusChanged                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Coding-Standards]            | 13    | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Bug-Detective]               | 6     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Runtime-Error-Detection]     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Sniffer]                     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Code-Review]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Coverage]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Coding Standards]      | 13    | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Automation]            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Source-Control]              | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Concerto-Access]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test DTP Publish]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.invokeAsyncCallsQueue                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Enforce-Max-Errors]          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Rule-Wizard]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Parameterization]            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Unit Test]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Email-Reports]               | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Coverage]              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.checkFinished                           | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Unit-Testing]                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.158s
+
+Scope Filters Profiler
++ ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                               | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| [Paths Filter].parallelProcess     | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
+| [Resources Filter].parallelProcess | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.003s
+
+Async Call Profiler
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                        | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| InternalLicenseManager.activateLicense:355  | 1     | 0.022     | 0.022   | 0.022   | 0.022   |
+| InternalLicenseManager.invokeAsyncCall:1118 | 84    | 0.004     | 0.0     | 0.004   | 0.0     |
+| AsyncCallHandler.startThread                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.026s
+
+Rule Description Profiler
++ ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| RuleDescriptionUpdateService.refreshSharedDescriptions | 1     | 0.016     | 0.016   | 0.016   | 0.016   |
++ ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.016s
+
+Suppressions Profiler
++ -------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                         | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ -------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| LocalSuppressionsService.getSuppression      | 15    | 0.045     | 0.0     | 0.009   | 0.003   |
+| LocalSuppressionsManager.getFirstSuppression | 15    | 0.04      | 0.0     | 0.008   | 0.002   |
+| CommentSuppressionsManager.getSuppression    | 15    | 0.018     | 0.0     | 0.003   | 0.001   |
+| LocalSuppressionsManager.getStorage          | 15    | 0.007     | 0.0     | 0.007   | 0.0     |
++ -------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.11s
+
+Reports Profiler
++ ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| NAME                                 | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| XMLReporterService.generateReport()  | 1     | 0.132     | 0.132   | 0.132   | 0.132   |
+| XMLReporter.openReport()             | 1     | 0.035     | 0.035   | 0.035   | 0.035   |
+| XMLReporter.reportResult()           | 34    | 0.029     | 0.0     | 0.008   | 0.0     |
+| XMLReporterService.generateReports() | 1     | 0.025     | 0.025   | 0.025   | 0.025   |
++ ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.221s
+
+Result Processors Profiler
++ --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                    | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| AuthorshipProcessor.parallelProcess     | 2     | 0.028     | 0.011   | 0.016   | 0.014   |
+| SuppressionsProcessor.parallelProcess   | 1     | 0.018     | 0.018   | 0.018   | 0.018   |
+| ResultLocationProcessor.parallelProcess | 2     | 0.009     | 0.004   | 0.005   | 0.004   |
+| ResultLocationProcessor.adapt           | 99    | 0.003     | 0.0     | 0.001   | 0.0     |
+| GoalsProcessor.parallelProcess          | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| SourceControlProcessor.adapt            | 15    | 0.0       | 0.0     | 0.0     | 0.0     |
+| GoalsProcessor.adapt                    | 30    | 0.0       | 0.0     | 0.0     | 0.0     |
+| ScopeResultProcessor.process            | 25    | 0.0       | 0.0     | 0.0     | 0.0     |
+| RulesProcessor.parallelProcess          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| RuleLimitProcessor.process              | 25    | 0.0       | 0.0     | 0.0     | 0.0     |
++ --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.059s
+
+Default Profiler
++ ----------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                      | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ----------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| RulesService.init                         | 1     | 0.113     | 0.113   | 0.113   | 0.113   |
+| RulexXmlParser.parseFile                  | 11    | 0.041     | 0.0     | 0.023   | 0.003   |
+| ShareReassignments.getReassignment        | 15    | 0.025     | 0.0     | 0.005   | 0.001   |
+| ResultLocationProcessor.calculateLineHash | 15    | 0.011     | 0.0     | 0.003   | 0.0     |
+| ReportsService.generateReports()          | 1     | 0.011     | 0.011   | 0.011   | 0.011   |
+| LineHashCache.lineHashes                  | 5     | 0.01      | 0.001   | 0.003   | 0.002   |
+| ResultLocationProcessor.calculateFileHash | 23    | 0.003     | 0.0     | 0.0     | 0.0     |
+| TestableInput.countLines                  | 8     | 0.002     | 0.0     | 0.001   | 0.0     |
+| FileHashResultsCache.calculateHash        | 8     | 0.001     | 0.0     | 0.0     | 0.0     |
+| NumLinesResultsCache.computeResult        | 8     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ----------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.217s
+================================================================================================
+SERVICES PROFILER
+================================================================================================
+Services provider profiler (COUNT > 1):
++ --------------------------------------------- + ----- + --------- +
+| NAME                                          | COUNT | TOTAL [s] |
++ --------------------------------------------- + ----- + --------- +
+| getService(IProfilerService)                  | 39    | 0.0       |
+| getServiceRefs(IRulesService)                 | 6     | 0.0       |
+| getService(ICoverageService)                  | 4     | 0.0       |
+| getService(IProfilerStatisticsService)        | 9     | 0.001     |
+| getServices(IDupCodeService)                  | 5     | 0.001     |
+| getServices(IPreferenceValidationRules)       | 2     | 0.001     |
+| getService(IRulesService$Factory)             | 9     | 0.002     |
+| getService(IGoalsProvider)                    | 11    | 0.003     |
+| getService(IDtpServiceRegistry)               | 15    | 0.003     |
+| getServices(IAnalyzerRunnerService)           | 3     | 0.003     |
+| getService(IRulesService)                     | 8     | 0.003     |
+| getService(ILocationsManager)                 | 12    | 0.004     |
+| getService(IPreferencesService)               | 3     | 0.004     |
+| getService(ISuppressionsService)              | 3     | 0.005     |
+| getServices(IViolationXmlStorage)             | 2     | 0.006     |
+| getServices(ITechSupportItemsProviderService) | 4     | 0.006     |
+| getServices(ISharingRepository)               | 2     | 0.007     |
+| getServices(IScopeFilter)                     | 2     | 0.007     |
+| getService(IParallelRunner)                   | 23    | 0.007     |
+| getServices(IReportTransformerService)        | 2     | 0.007     |
+| getServices(IScopeComputer)                   | 2     | 0.012     |
+| getServices(IReassignmentsService)            | 15    | 0.015     |
+| getService(ILicenseService)                   | 100   | 0.015     |
+| getService(ITechSupportService)               | 2     | 0.02      |
+| getServices(IResultPostProcessorService)      | 50    | 0.02      |
+| getService(IAuthorshipService)                | 28    | 0.025     |
+| getServices(IAnalyzerService)                 | 5     | 0.027     |
+| getServices(ISuppressionsService)             | 21    | 0.03      |
+| getService(IApplication)                      | 107   | 0.043     |
+| getServices(IPreferences)                     | 82    | 0.054     |
++ --------------------------------------------- + ----- + --------- +
+TOTAL: 0.331
+================================================================================================
+SERVICES INSTANCES COUNT
+================================================================================================
+
++ -------------------------------------------------------------------------------- + ----- +
+| Class                                                                            | Count |
++ -------------------------------------------------------------------------------- + ----- +
+| com.parasoft.xtest.common.profiler.ProfilerService                               | 9     |
+| com.parasoft.xtest.common.dtp.DtpPreferences                                     | 2     |
+| com.parasoft.xtest.common.preferences.GeneralPreferences                         | 2     |
+| com.parasoft.xtest.share.internal.dtp.DTPSharingRepository                       | 2     |
+| com.parasoft.xtest.share.internal.local.LocalSharingRepository                   | 2     |
+| com.parasoft.xtest.authorship.internal.authors.AuthorsPreferences                | 1     |
+| com.parasoft.xtest.authorship.internal.computer.AuthorshipService                | 1     |
+| com.parasoft.xtest.authorship.internal.computer.LocalUserAuthorshipComputer      | 1     |
+| com.parasoft.xtest.authorship.internal.computer.ScmAuthorshipComputer            | 1     |
+| com.parasoft.xtest.authorship.internal.computer.XmlMapAuthorshipComputer         | 1     |
+| com.parasoft.xtest.authorship.internal.reassignments.Share9xReassignmentsService | 1     |
+| com.parasoft.xtest.common.SystemService                                          | 1     |
+| com.parasoft.xtest.common.dtp.DtpServiceRegistry                                 | 1     |
+| com.parasoft.xtest.common.locations.LocationsManager                             | 1     |
+| com.parasoft.xtest.common.parallel.ParallelExecutor                              | 1     |
+| com.parasoft.xtest.common.parallel.ParallelPreferences                           | 1     |
+| com.parasoft.xtest.common.preferences.ConfigurationPreferences                   | 1     |
+| com.parasoft.xtest.common.preferences.EnginesPreferences                         | 1     |
+| com.parasoft.xtest.common.ui.analyzers.CustomAnalyzerRunner                      | 1     |
+| com.parasoft.xtest.configuration.internal.BuiltinConfigDataProvider              | 1     |
+| com.parasoft.xtest.configuration.internal.DtpConfigDataProvider                  | 1     |
+| com.parasoft.xtest.configuration.internal.SharedConfigDataProvider               | 1     |
+| com.parasoft.xtest.configuration.internal.UserConfigDataProvider                 | 1     |
+| com.parasoft.xtest.configuration.rules.RulesService                              | 1     |
+| com.parasoft.xtest.coverage.CoverageService                                      | 1     |
+| com.parasoft.xtest.lic.client.internal.service.LicenseService                    | 1     |
+| com.parasoft.xtest.lic.client.ui.preferences.LicensePreferences                  | 1     |
+| com.parasoft.xtest.reports.internal.ReportsService                               | 1     |
+| com.parasoft.xtest.reports.internal.transformers.PdfReportTransformer            | 1     |
+| com.parasoft.xtest.results.internal.goals.GoalsProvider                          | 1     |
+| com.parasoft.xtest.scontrol.internal.api.ScmService                              | 1     |
+| com.parasoft.xtest.suppressions.comment.SubstringSuppressionsComputer            | 1     |
+| com.parasoft.xtest.suppressions.dtp.DtpSuppressionsService                       | 1     |
+| com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService      | 1     |
+| com.parasoft.xtest.suppressions.local.LocalSuppressionsService                   | 1     |
+| com.parasoft.xtest.techsupport.TechSupportService                                | 1     |
+| com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences       | 1     |
++ -------------------------------------------------------------------------------- + ----- +

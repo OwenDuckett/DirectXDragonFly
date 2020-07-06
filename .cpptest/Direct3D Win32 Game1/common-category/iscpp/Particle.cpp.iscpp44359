@@ -1,0 +1,6 @@
+fileName=C:\Direct3D 1\Direct3D Win32 Game1\Particle.cpp
+isCpp=
+compilerOpts=-I"C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.3\engine\runtime\include" /ZI /W3 /Od /EHsc /RTC1 /MDd /arch:SSE2 /fp:fast /Gd /GS /Oy- /I"C:\Direct3D 1\packages\directxtk_desktop_2015.2017.12.13.1\build\native\../..//build/native/include/" /Gm /DHAS_DIRECTXTK /DWIN32 /D_DEBUG /D_WINDOWS /D_UNICODE /DUNICODE /Zc:wchar_t /Zc:forScope /Zc:inline /GR /WX- /nologo -DPARASOFT_CPPTEST -I.
+compilerId=vc_14_0
+workingDir=C:\Direct3D 1\Direct3D Win32 Game1\
+advancedOptionsHash=0

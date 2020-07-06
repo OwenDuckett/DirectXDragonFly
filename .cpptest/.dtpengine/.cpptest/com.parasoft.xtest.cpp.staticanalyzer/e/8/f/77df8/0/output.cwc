@@ -1,0 +1,100 @@
+<->
+<F>C:\Direct3D 1\Direct3D Win32 Game1\Main.cpp
+<c>OPT-24
+<b>Function 'ExitGame' is not inlined
+<l>288
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Game.h
+<c>OOP-27
+<b>Class 'Game' does not have explicitly defined assignment operator
+<l>13
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Game.h
+<c>MRM-49
+<b>Class 'Game' shall declare a copy assignment operator
+<l>13
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Game.h
+<c>OPT-13
+<b>Members 'm_FlyPath, m_Particals, m_WorldVeiw, m_WorldVeiwX, m_WorldVeiwY, m_WorldVeiwZ, m_d3dContext, m_d3dDevice, m_depthStencilView, m_fxFactory, m_inputLayout, m_keyboard, m_model, m_model_Legs, m_model_Wings, m_model_stick, m_mouse, m_proj, m_renderTargetView, m_shape, m_shpere, m_sphereEffect, m_states, m_swapChain, m_texture, m_timer, m_view, m_world' of class 'Game' are declared in suboptimal order for memory layout
+<l>13
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\StepTimer.h
+<c>INIT-14
+<b>Assignment in constructor 'StepTimer' found. Use constructor initialization list instead
+<l>38
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\StepTimer.h
+<c>OPT-13
+<b>Members 'm_qpcSecondCounter, m_targetElapsedTicks' of class 'StepTimer' are declared in suboptimal order for memory layout
+<l>13
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\StepTimer.h
+<c>OPT-13
+<b>Members 'm_targetElapsedTicks' of class 'StepTimer' are declared in suboptimal order for memory layout
+<l>13
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>OPT-13
+<b>Members 'particles' of class 'ParticleSystem' are declared in suboptimal order for memory layout
+<l>6
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>OPT-13
+<b>Members 'obj' of structure 'Particle' are declared in suboptimal order for memory layout
+<l>24
+<k>9
+<s>false
+<N>
+<f>
+<L>0

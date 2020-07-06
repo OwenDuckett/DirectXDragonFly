@@ -1,0 +1,20 @@
+codewizard.ltm 1b61b0a0
+cpptestcc.compilerCfgFile C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.3\engine\etc\compilers\vc_14_0\cpp.psrc
+cpptestcc.workspace .
+cpptestcc.runAnalysis on
+cpptestcc.runOriginalCommand off
+codewizard.suppressFile +*
+codewizard.suppressFile -C:\Direct3D 1\Direct3D Win32 Game1\Main.cpp
+ppro.headerSequenceFile C:\Direct3D 1\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.ipro\e\8\f\77df8\0\output.ipro
+codewizard.headerSequenceFile C:\Direct3D 1\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.ipro\e\8\f\77df8\0\output.ipro
+cpptestcc.runIpro off
+cpptestcc.runCwc on
+codewizard.suppressFile -c:\direct3d 1\direct3d win32 game1\pch.h
+codewizard.suppressFile -c:\direct3d 1\direct3d win32 game1\Game.h
+codewizard.suppressFile -c:\direct3d 1\direct3d win32 game1\StepTimer.h
+codewizard.suppressFile -c:\direct3d 1\direct3d win32 game1\Particle.h
+codewizard.reportFileCustom INTERNAL-GLOBAL-*:C:\Direct3D 1\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.analyzer.global\e\8\f\77df8\0\output.cwc
+codewizard.reportFile C:\Direct3D 1\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.staticanalyzer\e\8\f\77df8\0\output.cwc
+codewizard.pproDataFile C:\Direct3D 1\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.ppro\e\8\f\77df8\0\output.ppro
+ppro.outputFile C:\Direct3D 1\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.ppro\e\8\f\77df8\0\output.ppro
+cpptestcc.runPpro on

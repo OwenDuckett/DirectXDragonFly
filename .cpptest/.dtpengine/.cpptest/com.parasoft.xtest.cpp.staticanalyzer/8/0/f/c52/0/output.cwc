@@ -1,0 +1,170 @@
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>STL-37
+<b>Use vector or string instead of array: particles
+<l>32
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>OPT-13
+<b>Members 'particles' of class 'ParticleSystem' are declared in suboptimal order for memory layout
+<l>6
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\Particle.h
+<c>OPT-13
+<b>Members 'obj' of structure 'Particle' are declared in suboptimal order for memory layout
+<l>24
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\StepTimer.h
+<c>INIT-14
+<b>Assignment in constructor 'StepTimer' found. Use constructor initialization list instead
+<l>38
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\StepTimer.h
+<c>OPT-13
+<b>Members 'm_qpcSecondCounter, m_targetElapsedTicks' of class 'StepTimer' are declared in suboptimal order for memory layout
+<l>13
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\direct3d 1\direct3d win32 game1\StepTimer.h
+<c>OPT-13
+<b>Members 'm_targetElapsedTicks' of class 'StepTimer' are declared in suboptimal order for memory layout
+<l>13
+<k>11
+<s>false
+<N>
+<f>
+<L>0
